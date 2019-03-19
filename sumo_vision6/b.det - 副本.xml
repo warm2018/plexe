@@ -1,0 +1,17 @@
+<additional>
+	<entryExitDetector id="AW-S" freq="210" file="b.out.xml"> 
+		<detEntry lane="edge-AW1-AO0_1" pos="0" friendlyPos="x"/>
+		<detEntry lane="edge-AW1-AO0_2" pos="0" friendlyPos="x"/>
+		<detEntry lane="edge-AW1-AO0_3" pos="0" friendlyPos="x"/>
+		<detEntry lane="edge-AW1-AO0_4" pos="0" friendlyPos="x"/>
+		<detExit  lane="edge-AW1-AO0_1" pos="92.1" friendlyPos="x"/>
+		<detExit  lane="edge-AW1-AO0_2" pos="92.1" friendlyPos="x"/>		
+		<detExit  lane="edge-AW1-AO0_3" pos="92.1" friendlyPos="x"/>		
+		<detExit  lane="edge-AW1-AO0_4" pos="92.1" friendlyPos="x"/>		
+	</entryExitDetector>
+
+	<entryExitDetector id="AW-L" freq="210" file="b.out.xml"> 
+		<detEntry lane="edge-AW1-AO0_5" pos="0" friendlyPos="x"/>
+		<detExit  lane="edge-AW1-AO0_5" pos="92.1" friendlyPos="x"/>		
+	</entryExitDetector>
+</additional>

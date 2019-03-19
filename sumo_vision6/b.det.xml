@@ -1,0 +1,117 @@
+<CdditionCl>
+	<laneAreaDetector id="AW0" lane="edge-AW1-AO0_0" pos="0" endPos="92.1" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AW1" lane="edge-AW1-AO0_1" pos="0" endPos="92.1" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AW2" lane="edge-AW1-AO0_2" pos="0" endPos="92.1" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AW3" lane="edge-AW1-AO0_3" pos="0" endPos="92.1" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AW4" lane="edge-AW1-AO0_4" pos="0" endPos="92.1" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AW5" lane="edge-AW1-AO0_5" pos="0" endPos="92.1" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+	<laneAreaDetector id="AE0" lane="edge-AE1-AO0_0" pos="0" endPos="94.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AE1" lane="edge-AE1-AO0_1" pos="0" endPos="94.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AE2" lane="edge-AE1-AO0_2" pos="0" endPos="94.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AE3" lane="edge-AE1-AO0_3" pos="0" endPos="94.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AE4" lane="edge-AE1-AO0_4" pos="0" endPos="94.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AE5" lane="edge-AE1-AO0_5" pos="0" endPos="94.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+	<laneAreaDetector id="AS0" lane="edge-AS1-AO0_0" pos="0" endPos="66.86" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AS1" lane="edge-AS1-AO0_1" pos="0" endPos="66.86" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+	<laneAreaDetector id="AN0" lane="edge-AN1-AO0_0" pos="0" endPos="70.19" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AN1" lane="edge-AN1-AO0_1" pos="0" endPos="70.19" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="AN2" lane="edge-AN1-AO0_2" pos="0" endPos="70.19" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+<!--intersection B 历山路-->
+	<laneAreaDetector id="BW0" lane="edge-BW1-BO0_0" pos="0" endPos="89.87" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BW1" lane="edge-BW1-BO0_1" pos="0" endPos="89.87" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BW2" lane="edge-BW1-BO0_2" pos="0" endPos="89.87" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BW3" lane="edge-BW1-BO0_3" pos="0" endPos="89.87" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BW4" lane="edge-BW1-BO0_4" pos="0" endPos="89.87" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BW5" lane="edge-BW1-BO0_5" pos="0" endPos="89.87" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+	<laneAreaDetector id="BE0" lane="edge-BE1-BO0_0" pos="0" endPos="90.02" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BE1" lane="edge-BE1-BO0_1" pos="0" endPos="90.02" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BE2" lane="edge-BE1-BO0_2" pos="0" endPos="90.02" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BE3" lane="edge-BE1-BO0_3" pos="0" endPos="90.02" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BE4" lane="edge-BE1-BO0_4" pos="0" endPos="90.02" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BE5" lane="edge-BE1-BO0_5" pos="0" endPos="90.02" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+	<laneAreaDetector id="BS0" lane="edge-BS1-BO0_0" pos="0" endPos="68.85" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BS1" lane="edge-BS1-BO0_1" pos="0" endPos="68.85" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BS2" lane="edge-BS1-BO0_2" pos="0" endPos="68.85" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+	<laneAreaDetector id="BN0" lane="edge-BN1-BO0_0" pos="0" endPos="69.03" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BN1" lane="edge-BN1-BO0_1" pos="0" endPos="69.03" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BN2" lane="edge-BN1-BO0_2" pos="0" endPos="69.03" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BN3" lane="edge-BN1-BO0_3" pos="0" endPos="69.03" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BN4" lane="edge-BN1-BO0_4" pos="0" endPos="69.03" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="BN5" lane="edge-BN1-BO0_5" pos="0" endPos="69.03" freq="210" file="b.out.xml" friendlyPos="x"/>
+<!--intersection C 山师东路-->
+	<laneAreaDetector id="CW0" lane="edge-CW1-CO0_0" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CW1" lane="edge-CW1-CO0_1" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CW2" lane="edge-CW1-CO0_2" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CW3" lane="edge-CW1-CO0_3" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CW4" lane="edge-CW1-CO0_4" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CW5" lane="edge-CW1-CO0_5" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+	<laneAreaDetector id="CE0" lane="edge-CE1-CO0_0" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CE1" lane="edge-CE1-CO0_1" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CE2" lane="edge-CE1-CO0_2" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CE3" lane="edge-CE1-CO0_3" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CE4" lane="edge-CE1-CO0_4" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CE5" lane="edge-CE1-CO0_5" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+	<laneAreaDetector id="CS0" lane="edge-CS1-CO0_0" pos="0" endPos="88" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CS1" lane="edge-CS1-CO0_1" pos="0" endPos="88" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CS2" lane="edge-CS1-CO0_2" pos="0" endPos="88" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+	<laneAreaDetector id="CN0" lane="edge-CN1-CO0_0" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CN1" lane="edge-CN1-CO0_1" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="CN2" lane="edge-CN1-CO0_2" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+<!--intersection C 环山路-->
+	<laneAreaDetector id="DW0" lane="edge-DW1-DO0_0" pos="0" endPos="99.47" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DW1" lane="edge-DW1-DO0_1" pos="0" endPos="99.47" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DW2" lane="edge-DW1-DO0_2" pos="0" endPos="99.47" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DW3" lane="edge-DW1-DO0_3" pos="0" endPos="99.47" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DW4" lane="edge-DW1-DO0_4" pos="0" endPos="99.47" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+	<laneAreaDetector id="DE0" lane="edge-DE1-DO0_0" pos="0" endPos="98.35" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DE1" lane="edge-DE1-DO0_1" pos="0" endPos="98.35" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DE2" lane="edge-DE1-DO0_2" pos="0" endPos="98.35" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DE3" lane="edge-DE1-DO0_3" pos="0" endPos="98.35" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DE4" lane="edge-DE1-DO0_4" pos="0" endPos="98.35" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+	<laneAreaDetector id="DS0" lane="edge-DS1-DO0_0" pos="0" endPos="67.36" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DS1" lane="edge-DS1-DO0_1" pos="0" endPos="67.36" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="DS2" lane="edge-DS1-DO0_2" pos="0" endPos="67.36" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+	<laneAreaDetector id="DN0" lane="edge-DN1-DO0_0" pos="300" endPos="376.48" freq="210" file="b.out.xml" friendlyPos="x"/>
+<!--intersection E 山大路-->
+	<laneAreaDetector id="EW0" lane="edge-EW1-EO0_0" pos="0" endPos="90" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EW1" lane="edge-EW1-EO0_1" pos="0" endPos="90" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EW2" lane="edge-EW1-EO0_2" pos="0" endPos="90" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EW3" lane="edge-EW1-EO0_3" pos="0" endPos="90" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EW4" lane="edge-EW1-EO0_4" pos="0" endPos="90" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EW5" lane="edge-EW1-EO0_5" pos="0" endPos="90" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EW6" lane="edge-EW1-EO0_6" pos="0" endPos="90" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+	<laneAreaDetector id="EE0" lane="edge-EE1-EO0_0" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EE1" lane="edge-EE1-EO0_1" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EE2" lane="edge-EE1-EO0_2" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EE3" lane="edge-EE1-EO0_3" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EE4" lane="edge-EE1-EO0_4" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EE5" lane="edge-EE1-EO0_5" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EE6" lane="edge-EE1-EO0_6" pos="0" endPos="96.4" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+	<laneAreaDetector id="ES0" lane="edge-ES1-EO0_0" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="ES1" lane="edge-ES1-EO0_1" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="ES2" lane="edge-ES1-EO0_2" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	
+	<laneAreaDetector id="EN0" lane="edge-EN1-EO0_0" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EN1" lane="edge-EN1-EO0_1" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EN2" lane="edge-EN1-EO0_2" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EN3" lane="edge-EN1-EO0_3" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+	<laneAreaDetector id="EN4" lane="edge-EN1-EO0_4" pos="0" endPos="65" freq="210" file="b.out.xml" friendlyPos="x"/>
+
+
+</CdditionCl>

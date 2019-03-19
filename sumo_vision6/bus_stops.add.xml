@@ -1,0 +1,35 @@
+<add>
+    <busStop id="busStop#1"  lane="edge-AW2-AW1_0" startPos="90"  endPos="120" lines="--"/>
+    <busStop id="busStop#2"  lane="edge-AO0-BW1_0" startPos="90"  endPos="120" lines="--"/>
+    <busStop id="busStop#3"  lane="edge-BO0-CW1_0" startPos="100" endPos="130" lines="--"/>
+    <busStop id="busStop#4"  lane="edge-BO0-CW1_0" startPos="430" endPos="460" lines="--"/>
+    <busStop id="busStop#5"  lane="edge-CO0-DW1_0" startPos="260" endPos="290" lines="--"/>
+    <busStop id="busStop#6"  lane="edge-DO0-EW1_0" startPos="160" endPos="190" lines="--"/>	
+    <busStop id="busStop#7"  lane="edge-EO0-EE2_0" startPos="300" endPos="330" lines="--"/>
+	
+    <busStop id="busStop#8"  lane="edge-EE2-EE1_0" startPos="210" endPos="230" lines="--"/>
+    <busStop id="busStop#9"  lane="edge-EO0-DE1_0" startPos="150" endPos="180" lines="--"/>
+    <busStop id="busStop#10" lane="edge-DO0-CE1_0" startPos="260" endPos="290" lines="--"/>
+    <busStop id="busStop#11" lane="edge-CO0-BE1_0" startPos="180" endPos="210" lines="--"/>
+    <busStop id="busStop#12" lane="edge-CO0-BE1_0" startPos="450" endPos="480" lines="--"/>
+    <busStop id="busStop#13" lane="edge-BO0-AE1_0" startPos="220" endPos="250" lines="--"/>
+    <busStop id="busStop#14" lane="edge-AO0-AW2_0" startPos="410" endPos="440" lines="--"/>
+	
+    <busStop id="busStop#15" lane="edge-BS2-BS1_0" startPos="250" endPos="270" lines="--"/>
+    <busStop id="busStop#16" lane="edge-CS2-CS1_0" startPos="140" endPos="160" lines="--"/>
+    <busStop id="busStop#17" lane="edge-DS2-DS1_0" startPos="100" endPos="120" lines="--"/>
+    <busStop id="busStop#18" lane="edge-ES2-ES1_0" startPos="100" endPos="120" lines="--"/>
+    <busStop id="busStop#19" lane="edge-EN2-EN1_0" startPos="80"  endPos="100" lines="--"/>
+    <busStop id="busStop#20" lane="edge-CN2-CN1_0" startPos="100" endPos="120" lines="--"/>
+    <busStop id="busStop#21" lane="edge-BN2-BN1_3" startPos="80"  endPos="100" lines="--"/>
+    <busStop id="busStop#22" lane="edge-AN2-AN1_0" startPos="180" endPos="200" lines="--"/>
+	
+    <busStop id="busStop#23" lane="edge-BO0-BS2_0" startPos="100" endPos="120" lines="--"/>
+    <busStop id="busStop#24" lane="edge-CO0-CS2_0" startPos="180" endPos="200" lines="--"/>
+    <busStop id="busStop#25" lane="edge-DO0-DS2_0" startPos="270" endPos="290" lines="--"/>
+    <busStop id="busStop#26" lane="edge-EO0-ES2_0" startPos="290" endPos="310" lines="--"/>
+    <busStop id="busStop#27" lane="edge-EO0-EN2_0" startPos="240" endPos="260" lines="--"/>
+    <busStop id="busStop#28" lane="edge-CO0-CN2_0" startPos="120" endPos="140" lines="--"/>
+    <busStop id="busStop#29" lane="edge-BO0-BN2_3" startPos="320" endPos="340" lines="--"/>
+    <busStop id="busStop#30" lane="edge-AO0-AN2_0" startPos="200" endPos="220" lines="--"/>
+</add>

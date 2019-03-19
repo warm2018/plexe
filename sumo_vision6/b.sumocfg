@@ -1,0 +1,32 @@
+<configuration>  
+   
+	<input>  
+		<net-file value="b.net.xml"/>
+		<route-files value="b.rou.xml"/>
+        <additional-files value="b.det.xml,vtypes.add.xml,bus_stops.add.xml,busses.rou.xml,tls.add.xml"/>		
+	</input>
+	
+    <output>
+        <tripinfo-output value="tripinfos.xml"/>
+		<queue-output value="queue.xml"/>
+		<fcd-output value="fcd.xml"/>
+		<fcd-output.signals value="true"/>
+    </output>
+	
+    <report>
+        <log value="sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+    
+	<time>        
+		<begin value="0"/>        
+		<end value="5400"/>   
+	</time>
+	
+	<processing>	
+	<time-to-teleport value="-1"/>
+	<ignore-junction-blocker value="20"/>
+	<collision.action value="remove"/>
+	</processing>
+	
+</configuration>

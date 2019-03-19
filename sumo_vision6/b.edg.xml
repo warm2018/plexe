@@ -1,0 +1,169 @@
+<edges> 
+<!--intersection A 千佛山路-->      
+	<edge id="edge-AW2-AW1" from="node-AW2" to="node-AW1" numLanes="4" width="4">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="9.76"/>
+			<lane index="2" disallow="bus" speed="9.76"/>
+			<lane index="3" disallow="bus" speed="9.76"/>
+	</edge>	
+	<edge id="edge-AW1-AO0" from="node-AW1" to="node-AO0" numLanes="6" width="3.25" speed="9.76">
+			<lane index="2" disallow="bus"/>
+			<lane index="3" disallow="bus"/>
+			<lane index="4" disallow="bus"/>
+	</edge>
+	<edge id="edge-AO0-AW2" from="node-AO0" to="node-AW2" numLanes="4" width="4">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="9.76"/>
+			<lane index="2" disallow="bus" speed="9.76"/>
+			<lane index="3" disallow="bus" speed="9.76"/>		
+	</edge>	
+	<edge id="edge-AE1-AO0" from="node-AE1" to="node-AO0" numLanes="6" width="3.25" speed="9.02">
+			<lane index="2" disallow="bus"/>
+			<lane index="3" disallow="bus"/>
+			<lane index="4" disallow="bus"/>
+	</edge>	
+	<edge id="edge-AO0-BW1" from="node-AO0" to="node-BW1" numLanes="5" width="4">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="9.79"/>
+			<lane index="2" disallow="bus" speed="9.79"/>
+			<lane index="3" disallow="bus" speed="9.79"/>
+			<lane index="4" disallow="bus" speed="9.79"/>
+	</edge>		
+	<edge id="edge-AS2-AS1" from="node-AS2" to="node-AS1" numLanes="1"/>
+	<edge id="edge-AS1-AO0" from="node-AS1" to="node-AO0" numLanes="2"/>
+	<edge id="edge-AO0-AS2" from="node-AO0" to="node-AS2" numLanes="1"/>
+	<edge id="edge-AN2-AN1" from="node-AN2" to="node-AN1" numLanes="2"/>
+ 	<edge id="edge-AN1-AO0" from="node-AN1" to="node-AO0" numLanes="3"/>
+	<edge id="edge-AO0-AN2" from="node-AO0" to="node-AN2" numLanes="2"/>
+<!--intersection B 历山路-->
+	<edge id="edge-BW1-BO0" from="node-BW1" to="node-BO0" numLanes="6" width="3.5" speed="9.79">
+			<lane index="2" disallow="bus"/>
+			<lane index="3" disallow="bus"/>
+			<lane index="4" disallow="bus"/>
+	</edge>	
+	<edge id="edge-BO0-AE1" from="node-BO0" to="node-AE1" numLanes="5" width="4">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="9.02"/>
+			<lane index="2" disallow="bus" speed="9.02"/>
+			<lane index="3" disallow="bus" speed="9.02"/>
+			<lane index="4" disallow="bus" speed="9.02"/>
+	</edge>		
+	<edge id="edge-BE1-BO0" from="node-BE1" to="node-BO0" numLanes="6" width="3" speed="12.48">
+			<lane index="2" disallow="bus"/>
+			<lane index="3" disallow="bus"/>
+			<lane index="4" disallow="bus"/>
+	</edge>	
+	<edge id="edge-BO0-CW1" from="node-BO0" to="node-CW1" numLanes="4" width="4">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="13.79"/>
+			<lane index="2" disallow="bus" speed="13.79"/>
+			<lane index="3" disallow="bus" speed="13.79"/>
+	</edge>		
+	<edge id="edge-BS2-BS1" from="node-BS2" to="node-BS1" numLanes="2"/>
+	<edge id="edge-BS1-BO0" from="node-BS1" to="node-BO0" numLanes="3"/>
+	<edge id="edge-BO0-BS2" from="node-BO0" to="node-BS2" numLanes="2"/>
+	<edge id="edge-BN2-BN1" from="node-BN2" to="node-BN1" numLanes="4">
+			<lane index="0" disallow="bus" speed="11.87"/>
+			<lane index="1" disallow="bus" speed="11.87"/>
+			<lane index="2" disallow="bus" speed="11.87"/>	
+			<lane index="3" allow="bus" speed="5.56"/>
+	</edge>		
+ 	<edge id="edge-BN1-BO0" from="node-BN1" to="node-BO0" numLanes="6">
+			<lane index="5" allow="bus"/>
+	</edge>		
+	<edge id="edge-BO0-BN2" from="node-BO0" to="node-BN2" numLanes="4">
+			<lane index="0" disallow="bus" speed="11.87"/>
+			<lane index="1" disallow="bus" speed="11.87"/>
+			<lane index="2" disallow="bus" speed="11.87"/>
+			<lane index="3" allow="bus" speed="5.56"/>
+	</edge>	
+<!--intersection C 山师东路-->
+	<edge id="edge-CW1-CO0" from="node-CW1" to="node-CO0" numLanes="6" width="3" speed="13.79">
+			<lane index="2" disallow="bus"/>
+			<lane index="3" disallow="bus"/>
+			<lane index="4" disallow="bus"/>
+	</edge>	
+	<edge id="edge-CO0-BE1" from="node-CO0" to="node-BE1" numLanes="4" width="4">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="12.48"/>
+			<lane index="2" disallow="bus" speed="12.48"/>
+			<lane index="3" disallow="bus" speed="12.48"/>			
+	</edge>	
+	<edge id="edge-CE1-CO0" from="node-CE1" to="node-CO0" numLanes="6" width="3.5" speed="13.98">
+			<lane index="2" disallow="bus"/>
+			<lane index="3" disallow="bus"/>
+			<lane index="4" disallow="bus"/>
+	</edge>	
+	<edge id="edge-CO0-DW1" from="node-CO0" to="node-DW1" numLanes="4" width="4">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="12.61"/>
+			<lane index="2" disallow="bus" speed="12.61"/>
+			<lane index="3" disallow="bus" speed="12.61"/>
+	</edge>	
+	<edge id="edge-CS2-CS1" from="node-CS2" to="node-CS1" numLanes="1"/>
+	<edge id="edge-CS1-CO0" from="node-CS1" to="node-CO0" numLanes="3"/>
+	<edge id="edge-CO0-CS2" from="node-CO0" to="node-CS2" numLanes="1"/>
+	<edge id="edge-CN2-CN1" from="node-CN2" to="node-CN1" numLanes="1"/>
+ 	<edge id="edge-CN1-CO0" from="node-CN1" to="node-CO0" numLanes="3"/>
+	<edge id="edge-CO0-CN2" from="node-CO0" to="node-CN2" numLanes="1"/>
+<!--intersection D 环山路-->	
+	<edge id="edge-DW1-DO0" from="node-DW1" to="node-DO0" numLanes="5" width="3.5" speed="12.61"/>
+	<edge id="edge-DO0-CE1" from="node-DO0" to="node-CE1" numLanes="5" width="3.75">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="13.98"/>
+			<lane index="2" disallow="bus" speed="13.98"/>
+			<lane index="3" disallow="bus" speed="13.98"/>
+			<lane index="4" disallow="bus" speed="13.98"/>
+	</edge>	
+	<edge id="edge-DE1-DO0" from="node-DE1" to="node-DO0" numLanes="5" width="3.75" speed="13.12">
+			<lane index="2" disallow="bus"/>
+			<lane index="3" disallow="bus"/>
+	</edge>	
+	<edge id="edge-DO0-EW1" from="node-DO0" to="node-EW1" numLanes="5" width="4">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="10.42"/>
+			<lane index="2" disallow="bus" speed="10.42"/>
+			<lane index="3" disallow="bus" speed="10.42"/>
+			<lane index="4" disallow="bus" speed="10.42"/>
+	</edge>	
+	<edge id="edge-DS2-DS1" from="node-DS2" to="node-DS1" numLanes="1"/>
+	<edge id="edge-DS1-DO0" from="node-DS1" to="node-DO0" numLanes="3"/>
+	<edge id="edge-DO0-DS2" from="node-DO0" to="node-DS2" numLanes="1"/>
+ 	<edge id="edge-DN1-DO0" from="node-DN1" to="node-DO0" numLanes="1"/>
+	<edge id="edge-DO0-DN1" from="node-DO0" to="node-DN1" numLanes="1"/>
+<!--intersection E 山大路-->
+	<edge id="edge-EW1-EO0" from="node-EW1" to="node-EO0" numLanes="7" width="3">
+			<lane index="2" disallow="bus" speed="10.42"/>
+			<lane index="3" disallow="bus" speed="10.42"/>
+			<lane index="4" disallow="bus" speed="10.42"/>
+	</edge>	
+	<edge id="edge-EO0-DE1" from="node-EO0" to="node-DE1" numLanes="4" width="4.25">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="13.12"/>
+			<lane index="2" disallow="bus" speed="13.12"/>
+			<lane index="3" disallow="bus" speed="13.12"/>
+	</edge>	
+	<edge id="edge-EE2-EE1" from="node-EE2" to="node-EE1" numLanes="4" width="4.25">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="15.12"/>
+			<lane index="2" disallow="bus" speed="15.12"/>
+			<lane index="3" disallow="bus" speed="15.12"/>
+	</edge>	
+	<edge id="edge-EE1-EO0" from="node-EE1" to="node-EO0" numLanes="7" width="3" speed="15.12">
+			<lane index="2" disallow="bus"/>
+			<lane index="3" disallow="bus"/>
+			<lane index="4" disallow="bus"/>
+	</edge>	
+	<edge id="edge-EO0-EE2" from="node-EO0" to="node-EE2" numLanes="4" width="4.25">
+			<lane index="0" allow="bus" speed="5.56"/>
+			<lane index="1" disallow="bus" speed="11.11"/>
+			<lane index="2" disallow="bus" speed="11.11"/>
+			<lane index="3" disallow="bus" speed="11.11"/>
+	</edge>	
+	<edge id="edge-ES2-ES1" from="node-ES2" to="node-ES1" numLanes="2"/>
+	<edge id="edge-ES1-EO0" from="node-ES1" to="node-EO0" numLanes="3"/>
+	<edge id="edge-EO0-ES2" from="node-EO0" to="node-ES2" numLanes="2"/>
+	<edge id="edge-EN2-EN1" from="node-EN2" to="node-EN1" numLanes="3"/>
+ 	<edge id="edge-EN1-EO0" from="node-EN1" to="node-EO0" numLanes="5"/>
+	<edge id="edge-EO0-EN2" from="node-EO0" to="node-EN2" numLanes="2"/>
+</edges> 

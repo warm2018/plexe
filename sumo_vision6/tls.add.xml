@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+<!--intersection A 千佛山路--> 
+    <tlLogic id="node-AO0" type="static" programID="A" offset="0">
+		<phase duration="57"  state="GrrrrrGrrrGGGGGGGGrrrrr"/><!--西直左-->
+        <phase duration="3"   state="GrrrrrGrrrGyyyyyGGrrrrr"/><!--黄灯-->
+		<phase duration="37"  state="GGGGGrGrrrGGGGGrGGrrrrr"/><!--东西直行-->
+		<phase duration="3"   state="GyyyyrGrrrGyyyyrGGrrrrr"/><!--黄灯-->
+		<phase duration="57"  state="GGGGGGGrrrGrrrrrGGrrrrr"/><!--东直左-->
+		<phase duration="3"   state="GyyyyyGrrrGrrrrrGGrrrrr"/><!--黄灯-->
+		<phase duration="45"  state="GrrrrrGGGGGrrrrrGGGGGGG"/><!--南北直左-->
+		<phase duration="5"   state="GrrrrrGyyyGrrrrrGGyyyyy"/><!--黄灯-->
+    </tlLogic>
+<!--intersection B 历山路-->	
+    <tlLogic id="node-BO0" type="static" programID="B" offset="40">
+        <phase duration="117" state="GGrrrrrrGGGGGGrGGrrrrGGGGGrr"/><!--东西直行-->
+        <phase duration="3"   state="GGrrrrrrGGyyyyrGGrrrrGyyyyrr"/><!--黄灯-->	
+        <phase duration="27"  state="GGrrrrrrGGrrrrGGGrrrrGrrrrGG"/><!--东西左转-->
+        <phase duration="3"   state="GGrrrrrrGGrrrryGGrrrrGrrrryy"/><!--黄灯-->	
+        <phase duration="27"  state="GGGGGGGGGGrrrrrGGrrrrGrrrrrr"/><!--北直左-->
+        <phase duration="3"   state="GGyyyyyyGGrrrrrGGrrrrGrrrrrr"/><!--黄灯-->
+		<phase duration="27"  state="GGrrrrrrGGrrrrrGGGGGGGrrrrrr"/><!--南直左-->
+        <phase duration="3"   state="GGrrrrrrGGrrrrrGGyyyyGrrrrrr"/><!--黄灯-->
+
+    </tlLogic>
+<!--intersection C 山师东路-->
+    <tlLogic id="node-CO0" type="static" programID="C" offset="90">
+	    <phase duration="27"  state="GGrrrrGrrrrrGGrrrGGGGGG"/><!--西直左-->
+        <phase duration="3"   state="GGrrrrGrrrrrGGrrrGyyyyy"/><!--黄灯-->
+		<phase duration="87"  state="GGrrrrGGGGGrGGrrrGGGGGr"/><!--东西直行-->
+        <phase duration="3"   state="GGrrrrGyyyyrGGrrrGyyyyr"/><!--黄灯-->
+		<phase duration="47"  state="GGrrrrGGGGGGGGrrrGrrrrr"/><!--东直左-->
+        <phase duration="3"   state="GGrrrrGyyyyyGGrrrGrrrrr"/><!--黄灯-->
+        <phase duration="17"  state="GGrrrrGrrrrrGGGGGGrrrrr"/><!--南直左-->
+        <phase duration="3"   state="GGrrrrGrrrrrGGyyyGrrrrr"/><!--黄灯-->
+        <phase duration="17"  state="GGGGGGGrrrrrGGrrrGrrrrr"/><!--北直左-->
+        <phase duration="3"   state="GGyyyyGrrrrrGGrrrGrrrrr"/><!--黄灯-->
+    </tlLogic>
+<!--intersection D 环山路-->	
+    <tlLogic id="node-DO0" type="static" programID="D" offset="130">
+		<phase duration="127" state="GGGGGrGGrrrGGGGGGGrr"/><!--东西直行-->
+        <phase duration="3"   state="yGyyyrGGrrrGyyyyyGrr"/><!--黄灯-->		
+        <phase duration="27"  state="GGGGGGGGrrrGrrrrrGrr"/><!--东直左-->
+        <phase duration="3"   state="yGyyyyGGrrrGrrrrrGrr"/><!--黄灯-->
+		<phase duration="47"  state="rGrrrrGGGGGGrrrrrGGG"/><!--南北直左-->
+        <phase duration="3"   state="rGrrrrGGyyyGrrrrrGyy"/><!--黄灯-->
+    </tlLogic>
+<!--intersection E 山大路-->
+    <tlLogic id="node-EO0" type="static" programID="E" offset="130">
+	    <phase duration="37"  state="GGrrrrrrGGGGGGGGrrrrrGrrrrrr"/><!--东直左-->
+        <phase duration="3"   state="GGrrrrrrGyyyyyyGrrrrrGrrrrrr"/><!--黄灯-->
+		<phase duration="67"  state="GGrrrrrrGGGGGrrGrrrrrGGGGGrr"/><!--东西直行-->
+        <phase duration="3"   state="GGrrrrrrGyyyyrrGrrrrrGyyyyrr"/><!--黄灯-->		
+        <phase duration="47"  state="GGrrrrrrGrrrrrrGrrrrrGGGGGGG"/><!--西直左-->
+        <phase duration="3"   state="GGrrrrrrGrrrrrrGrrrrrGyyyyyy"/><!--黄灯-->
+        <phase duration="24"  state="GGGGGGGGGrrrrrrGrrrrrGrrrrrr"/><!--北直左-->
+        <phase duration="1"   state="GGyyyyyyGrrrrrrGrrrrrGrrrrrr"/><!--黄灯-->			
+        <phase duration="24"  state="GGrrrrrrGrrrrrrGGGGGGGrrrrrr"/><!--南直左-->
+        <phase duration="1"   state="GGrrrrrrGrrrrrrGyyyyyGrrrrrr"/><!--黄灯-->	
+    </tlLogic>
+</add>

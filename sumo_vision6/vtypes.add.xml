@@ -1,0 +1,11 @@
+<routes>
+    <vTypeDistribution id="private">
+        <vType vClass="passenger" id="passenger1" color="255,000,000" accel="2.6" decel="5" sigma="0.5" length="5"   minGap="1.5" maxSpeed="60" departLane="best" probability=".20" guiShape="passenger/sedan" emissionClass="P_7_7"/>
+        <vType vClass="passenger" id="passenger2" color="255,255,255" accel="3.0" decel="5" sigma="0.5" length="4.5" minGap="1.5" maxSpeed="60" departLane="best" probability=".20" guiShape="passenger/hatchback" emissionClass="P_7_7"/>
+        <vType vClass="passenger" id="passenger3" color="000,000,000" accel="2.8" decel="5" sigma="0.5" length="4.5" minGap="1"   maxSpeed="60" departLane="best" probability=".20" guiShape="passenger/hatchback" emissionClass="P_7_7"/>
+        <vType vClass="passenger" id="passenger4" color="255,255,000" accel="2.7" decel="5" sigma="0.5" length="5"   minGap="1.5" maxSpeed="60" departLane="best" probability=".10" guiShape="passenger/wagon" emissionClass="P_7_7"/>
+        <vType vClass="passenger" id="passenger5" color="000,000,255" accel="2.4" decel="5" sigma="0.5" length="5"   minGap="1.5" maxSpeed="60" departLane="best" probability=".10" guiShape="passenger/van" emissionClass="P_7_7"/>
+        <vType vClass="taxi" id="taxi" color="220,223,227" accel="2.3" decel="5" sigma="0.5" length="5"   minGap="1.5" maxSpeed="60" departLane="best" probability=".5" guiShape="delivery" emissionClass="P_7_7"/>
+    </vTypeDistribution>
+	<vType id="bus" accel="2.6" decel="4.5" sigma="0.5" length="12" minGap="3" maxSpeed="70" emissionClass="HDV_6_2" guiShape="bus" vClass="bus" lcCooperative="0.0"/>
+</routes>

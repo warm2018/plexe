@@ -1,0 +1,43 @@
+<nodes> 
+<!--intersection A 千佛山路-->   
+	<node id="node-AO0" x="0"     y="0"    type="traffic_light" tlType="static" radius="10"/>
+	<node id="node-AW1" x="-120"  y="0"    type="priority"/>
+	<node id="node-AW2" x="-600"  y="0"    type="priority"/>
+	<node id="node-AE1" x="+120"  y="0"    type="priority"/>
+	<node id="node-AS1" x="+25"   y="-100" type="priority"/>
+	<node id="node-AS2" x="+100"  y="-400" type="priority"/>
+	<node id="node-AN1" x="-25"   y="+100" type="priority"/>
+	<node id="node-AN2" x="-100"  y="+400" type="priority"/>
+<!--intersection B 历山路-->
+	<node id="node-BO0" x="+425"  y="0"    type="traffic_light" tlType="static" radius="10"/>
+	<node id="node-BW1" x="+305"  y="0"    type="priority"/>
+	<node id="node-BE1" x="+545"  y="0"    type="priority"/>
+	<node id="node-BS1" x="+412"  y="-104"  type="priority"/>
+	<node id="node-BS2" x="+375"  y="-400" type="priority"/>
+	<node id="node-BN1" x="+442"  y="+102"  type="priority"/>
+	<node id="node-BN2" x="+495"  y="+420" type="priority"/>
+<!--intersection C 山师东路-->
+	<node id="node-CO0" x="+1145" y="0"    type="traffic_light" tlType="static" radius="10"/>
+	<node id="node-CW1" x="+1025" y="0"    type="priority"/>
+	<node id="node-CE1" x="+1265" y="0"    type="priority"/>
+	<node id="node-CS1" x="+1145" y="-120"  type="priority"/>
+	<node id="node-CS2" x="+1145" y="-400" type="priority"/>
+	<node id="node-CN1" x="+1145" y="+100"  type="priority"/>
+	<node id="node-CN2" x="+1145" y="+400" type="priority"/>
+<!--intersection D 环山路-->	
+	<node id="node-DO0" x="+1675" y="0.0"  type="traffic_light" tlType="static" radius="10"/>
+	<node id="node-DW1" x="+1555" y="0.0"  type="priority"/>
+	<node id="node-DE1" x="+1795" y="0.0"  type="priority"/>
+	<node id="node-DS1" x="+1665" y="-100" type="priority"/>
+	<node id="node-DS2" x="+1635" y="-400" type="priority"/>
+	<node id="node-DN1" x="+1605" y="+400" type="priority"/>
+<!--intersection E 山大路-->	
+	<node id="node-EO0" x="+2125" y="0"    type="traffic_light" tlType="static" radius="10"/>
+	<node id="node-EW1" x="+2005" y="0"    type="priority"/>
+	<node id="node-EE1" x="+2245" y="0"    type="priority"/>
+	<node id="node-EE2" x="+2625" y="0"    type="priority"/>
+	<node id="node-ES1" x="+2125" y="-100"  type="priority"/>
+	<node id="node-EN1" x="+2125" y="+100"  type="priority"/>
+	<node id="node-ES2" x="+2125" y="-400" type="priority"/>
+	<node id="node-EN2" x="+2125" y="+400" type="priority"/>
+</nodes> 

@@ -1,0 +1,1264 @@
+<routes>
+<!--route AW-LE-->
+    <route id="AW-LE-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-AN2"/>
+	<vehicle id="AA1" depart="00" type="bus" color="0,1,0" route="AW-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+	<vehicle id="AA2" depart="300" type="bus" color="0,1,1" route="AW-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+	<vehicle id="AA3" depart="600" type="bus" color="1,1,1" route="AW-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+	<vehicle id="AA4" depart="900" type="bus" color="0,0,1" route="AW-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+<!--route AW-B-LE-->	
+    <route id="AW-B-LE-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-BN2"/>
+	<vehicle id="AB1" depart="00" type="bus" color="0,1,0" route="AW-B-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#29"  duration="20"/>
+    </vehicle>
+	<vehicle id="AB2" depart="300" type="bus" color="0,1,1" route="AW-B-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#29"  duration="20"/>
+    </vehicle>
+	<vehicle id="AB3" depart="600" type="bus" color="1,1,1" route="AW-B-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#29"  duration="20"/>
+    </vehicle>
+	<vehicle id="AB4" depart="900" type="bus" color="0,0,1" route="AW-B-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#29"  duration="20"/>
+    </vehicle>	
+<!--route AW-B-RI-->	
+	<route id="AW-B-RI-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-BS2"/>
+	<vehicle id="AC1" depart="00" type="bus" color="0,1,0" route="AW-B-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+	<vehicle id="AC2" depart="300" type="bus" color="0,1,1" route="AW-B-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+	<vehicle id="AC3" depart="600" type="bus" color="1,1,1" route="AW-B-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+	<vehicle id="AC4" depart="900" type="bus" color="0,0,1" route="AW-B-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>	
+<!--route AW-B-C-LE-->	
+	<route id="AW-B-C-LE-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-CN2"/>
+	<vehicle id="AD1" depart="00" type="bus" color="0,1,0" route="AW-B-C-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#28"  duration="20"/>
+    </vehicle>
+	<vehicle id="AD2" depart="300" type="bus" color="0,1,1" route="AW-B-C-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#28"  duration="20"/>
+    </vehicle>
+	<vehicle id="AD3" depart="600" type="bus" color="1,1,1" route="AW-B-C-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#28"  duration="20"/>
+    </vehicle>
+	<vehicle id="AD4" depart="900" type="bus" color="0,0,1" route="AW-B-C-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#28"  duration="20"/>
+    </vehicle>	
+<!--route AW-B-C-RI-->	
+	<route id="AW-B-C-RI-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-CS2"/>
+	<vehicle id="AE1" depart="00" type="bus" color="0,1,0" route="AW-B-C-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+	<vehicle id="AE2" depart="300" type="bus" color="0,1,1" route="AW-B-C-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+	<vehicle id="AE3" depart="600" type="bus" color="1,1,1" route="AW-B-C-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+	<vehicle id="AE4" depart="900" type="bus" color="0,0,1" route="AW-B-C-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>	
+<!--route AW-B-C-D-RI-->	
+	<route id="AW-B-C-D-RI-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-DS2"/>
+	<vehicle id="AF1" depart="00" type="bus" color="0,1,0" route="AW-B-C-D-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#25"  duration="20"/>
+    </vehicle>
+	<vehicle id="AF2" depart="300" type="bus" color="0,1,1" route="AW-B-C-D-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#25"  duration="20"/>
+    </vehicle>
+	<vehicle id="AF3" depart="600" type="bus" color="1,1,1" route="AW-B-C-D-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#25"  duration="20"/>
+    </vehicle>
+	<vehicle id="AF4" depart="900" type="bus" color="0,0,1" route="AW-B-C-D-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#25"  duration="20"/>
+    </vehicle>	
+<!--route AW-B-C-D-E-LE-->	
+	<route id="AW-B-C-D-E-LE-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EN2"/>	
+	<vehicle id="AG1" depart="00" type="bus" color="0,1,0" route="AW-B-C-D-E-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="AG2" depart="300" type="bus" color="0,1,1" route="AW-B-C-D-E-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="AG3" depart="600" type="bus" color="1,1,1" route="AW-B-C-D-E-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="AG4" depart="900" type="bus" color="0,0,1" route="AW-B-C-D-E-LE-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+<!--route AW-B-C-D-E-ST-->
+	<route id="AW-B-C-D-E-ST-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EE2"/>
+	<vehicle id="AH1" depart="00" type="bus" color="0,1,0" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH2" depart="300" type="bus" color="0,1,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH3" depart="600" type="bus" color="1,1,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH4" depart="900" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH5" depart="1200" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH6" depart="1500" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH7" depart="1800" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH8" depart="2100" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH9" depart="2400" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH10" depart="2700" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH11" depart="3000" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH12" depart="3300" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH13" depart="3600" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH14" depart="3900" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH15" depart="4200" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH16" depart="4500" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="AH17" depart="4800" type="bus" color="0,0,1" route="AW-B-C-D-E-ST-bus">
+		<stop busStop="busStop#1"  duration="20"/>
+		<stop busStop="busStop#2"  duration="20"/>
+		<stop busStop="busStop#3"  duration="20"/>
+		<stop busStop="busStop#5"  duration="20"/>
+		<stop busStop="busStop#6"  duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>	
+<!--route AW-B-C-D-E-RI-->	
+	<route id="AW-B-C-D-E-RI-bus" edges="edge-AW2-AW1 edge-AW1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-ES2"/>  	
+	<vehicle id="AI1" depart="00" type="bus" color="0,1,0" route="AW-B-C-D-E-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="AI2" depart="300" type="bus" color="0,1,1" route="AW-B-C-D-E-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="AI3" depart="600" type="bus" color="1,1,1" route="AW-B-C-D-E-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="AI4" depart="900" type="bus" color="0,0,1" route="AW-B-C-D-E-RI-bus">
+		<stop busStop="busStop#1"   duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	
+	<!--route AN-RI-->
+	<route id="AN-RI-bus" edges="edge-AN2-AN1 edge-AN1-AO0 edge-AO0-AW2"/>	
+	<vehicle id="AJ1" depart="500" type="bus" color="0,1,1" route="AN-RI-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="AJ2" depart="1100" type="bus" color="0,0,1" route="AN-RI-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+
+<!--route AN-B-C-RI-->
+	<route id="AN-B-C-RI-bus" edges="edge-AN2-AN1 edge-AN1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-CS2"/>     
+	<vehicle id="AN1" depart="400" type="bus" color="0,1,1" route="AN-B-C-RI-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+	<vehicle id="AN2" depart="1000" type="bus" color="0,0,1" route="AN-B-C-RI-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+<!--route AN-B-C-D-RI-->
+	<route id="AN-B-C-D-RI-bus" edges="edge-AN2-AN1 edge-AN1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-DS2"/>  
+	<vehicle id="AO1" depart="00" type="bus" color="0,1,0" route="AN-B-C-D-RI-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#25"  duration="20"/>
+    </vehicle>
+	<vehicle id="AO4" depart="600" type="bus" color="0,0,1" route="AN-B-C-D-RI-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#25"  duration="20"/>
+    </vehicle>
+<!--route AN-B-C-D-E-LE-->
+	<route id="AN-B-C-D-E-LE-bus" edges="edge-AN2-AN1 edge-AN1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EN2"/>  
+	<vehicle id="AP1" depart="00" type="bus" color="0,1,1" route="AN-B-C-D-E-LE-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="AP2" depart="900" type="bus" color="1,1,1" route="AN-B-C-D-E-LE-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+<!--route AN-B-C-D-E-ST-->
+	<route id="AN-B-C-D-E-ST-bus" edges="edge-AN2-AN1 edge-AN1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EE2"/>
+	<vehicle id="AQ1" depart="00" type="bus" color="1,1,1" route="AN-B-C-D-E-ST-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="AQ2" depart="900" type="bus" color="0,0,1" route="AN-B-C-D-E-ST-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+<!--route AN-B-C-D-E-RI-->
+	<route id="AN-B-C-D-E-RI-bus" edges="edge-AN2-AN1 edge-AN1-AO0 edge-AO0-BW1 edge-BW1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-ES2"/>  
+	<vehicle id="AR1" depart="00" type="bus" color="1,1,1" route="AN-B-C-D-E-RI-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="AR2" depart="900" type="bus" color="0,0,1" route="AN-B-C-D-E-RI-bus">
+		<stop busStop="busStop#22"  duration="20"/>
+		<stop busStop="busStop#2"   duration="20"/>
+		<stop busStop="busStop#3"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	
+<!--route BS-A-ST-->	
+	<route id="BS-A-ST-bus" edges="edge-BS2-BS1 edge-BS1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AW2"/>
+	<vehicle id="BA1" depart="00" type="bus" color="0,1,0" route="BS-A-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="BA2" depart="900" type="bus" color="0,0,1" route="BS-A-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+<!--route BS-ST-->
+	<route id="BS-ST-bus" edges="edge-BS2-BS1 edge-BS1-BO0 edge-BO0-BN2"/>
+	<vehicle id="BC1" depart="00" type="bus" color="0,1,0" route="BS-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#29"  duration="20"/>
+    </vehicle>
+	<vehicle id="BC2" depart="300" type="bus" color="0,1,1" route="BS-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#29"  duration="20"/>
+    </vehicle>
+	<vehicle id="BC3" depart="600" type="bus" color="1,1,1" route="BS-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#29"  duration="20"/>
+    </vehicle>
+	<vehicle id="BC4" depart="900" type="bus" color="0,0,1" route="BS-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#29"  duration="20"/>
+    </vehicle>
+<!--route BS-C-D-E-LE-->
+	<route id="BS-C-D-E-LE-bus" edges="edge-BS2-BS1 edge-BS1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EN2"/>
+	<vehicle id="BG1" depart="00" type="bus" color="0,1,0" route="BS-C-D-E-LE-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="BG2" depart="300" type="bus" color="0,1,1" route="BS-C-D-E-LE-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="BG3" depart="600" type="bus" color="1,1,1" route="BS-C-D-E-LE-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="BG4" depart="900" type="bus" color="0,0,1" route="BS-C-D-E-LE-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+<!--route BS-C-D-E-ST-->
+	<route id="BS-C-D-E-ST-bus" edges="edge-BS2-BS1 edge-BS1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EE2"/>
+	<vehicle id="BH1" depart="00" type="bus" color="0,1,0" route="BS-C-D-E-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="BH2" depart="300" type="bus" color="0,1,1" route="BS-C-D-E-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="BH3" depart="600" type="bus" color="1,1,1" route="BS-C-D-E-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="BH4" depart="900" type="bus" color="0,0,1" route="BS-C-D-E-ST-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+<!--route BS-C-D-E-RI-->
+	<route id="BS-C-D-E-RI-bus" edges="edge-BS2-BS1 edge-BS1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-ES2"/>
+	<vehicle id="BI1" depart="00" type="bus" color="0,1,0" route="BS-C-D-E-RI-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="BI2" depart="300" type="bus" color="0,1,1" route="BS-C-D-E-RI-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="BI3" depart="600" type="bus" color="1,1,1" route="BS-C-D-E-RI-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="BI4" depart="900" type="bus" color="0,0,1" route="BS-C-D-E-RI-bus">
+		<stop busStop="busStop#15"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>	
+
+<!--route BN-A-ST-->	
+	<route id="BN-A-ST-bus" edges="edge-BN2-BN1 edge-BN1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AW2"/>
+	<vehicle id="BJ1" depart="00" type="bus" color="0,1,0" route="BN-A-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="BJ2" depart="300" type="bus" color="0,1,1" route="BN-A-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="BJ3" depart="600" type="bus" color="1,1,1" route="BN-A-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="BJ4" depart="900" type="bus" color="0,0,1" route="BN-A-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+<!--route BN-ST-->
+	<route id="BN-ST-bus" edges="edge-BN2-BN1 edge-BN1-BO0 edge-BO0-BS2"/>
+	<vehicle id="BL1" depart="00" type="bus" color="0,1,0" route="BN-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+	<vehicle id="BL2" depart="300" type="bus" color="0,1,1" route="BN-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+	<vehicle id="BL3" depart="600" type="bus" color="1,1,1" route="BN-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+	<vehicle id="BL4" depart="900" type="bus" color="0,0,1" route="BN-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+<!--route BN-C-D-E-LE-->	
+	<route id="BN-C-D-E-LE-bus" edges="edge-BN2-BN1 edge-BN1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EN2"/>
+	<vehicle id="BP1" depart="00" type="bus" color="0,1,0" route="BN-C-D-E-LE-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="BP2" depart="200" type="bus" color="0,1,1" route="BN-C-D-E-LE-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="BP3" depart="600" type="bus" color="1,1,1" route="BN-C-D-E-LE-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+	<vehicle id="BP4" depart="900" type="bus" color="0,0,1" route="BN-C-D-E-LE-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#27"  duration="20"/>
+    </vehicle>
+<!--route BN-C-D-E-ST-->
+	<route id="BN-C-D-E-ST-bus" edges="edge-BN2-BN1 edge-BN1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EE2"/>
+	<vehicle id="BQ1" depart="00" type="bus" color="0,1,0" route="BN-C-D-E-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="BQ2" depart="300" type="bus" color="0,1,1" route="BN-C-D-E-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="BQ3" depart="600" type="bus" color="1,1,1" route="BN-C-D-E-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="BQ4" depart="900" type="bus" color="0,0,1" route="BN-C-D-E-ST-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+<!--route BN-C-D-E-RI-->
+	<route id="BN-C-D-E-RI-bus" edges="edge-BN2-BN1 edge-BN1-BO0 edge-BO0-CW1 edge-CW1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-ES2"/>
+	<vehicle id="BR1" depart="00" type="bus" color="0,1,0" route="BN-C-D-E-RI-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="BR2" depart="300" type="bus" color="0,1,1" route="BN-C-D-E-RI-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="BR3" depart="600" type="bus" color="1,1,1" route="BN-C-D-E-RI-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="BR4" depart="900" type="bus" color="0,0,1" route="BN-C-D-E-RI-bus">
+		<stop busStop="busStop#21"  duration="20"/>
+		<stop busStop="busStop#4"   duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	
+<!--route CS-B-A-ST-->
+	<route id="CS-B-A-ST-bus" edges="edge-CS2-CS1 edge-CS1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AW2"/>
+	<vehicle id="CA1" depart="00" type="bus" color="0,1,0" route="CS-B-A-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#11"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="CA4" depart="900" type="bus" color="0,0,1" route="CS-B-A-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#11"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+<!--route CS-ST-->	
+	<route id="CS-ST-bus" edges="edge-CS2-CS1 edge-CS1-CO0 edge-CO0-CN2"/>
+	<vehicle id="CE1" depart="00" type="bus" color="0,1,0" route="CS-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#28"  duration="20"/>
+    </vehicle>
+	<vehicle id="CE2" depart="300" type="bus" color="0,1,1" route="CS-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#28"  duration="20"/>
+    </vehicle>
+	<vehicle id="CE3" depart="600" type="bus" color="1,1,1" route="CS-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#28"  duration="20"/>
+    </vehicle>
+	<vehicle id="CE4" depart="900" type="bus" color="0,0,1" route="CS-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#28"  duration="20"/>
+    </vehicle>
+<!--route CS-D-E-ST-->	
+	<route id="CS-D-E-ST-bus" edges="edge-CS2-CS1 edge-CS1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EE2"/>
+	<vehicle id="CH1" depart="00" type="bus" color="0,1,0" route="CS-D-E-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="CH2" depart="300" type="bus" color="0,1,1" route="CS-D-E-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="CH3" depart="600" type="bus" color="1,1,1" route="CS-D-E-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="CH4" depart="900" type="bus" color="0,0,1" route="CS-D-E-ST-bus">
+		<stop busStop="busStop#16"  duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+
+<!--route CN-B-A-ST-->	
+	<route id="CN-B-A-ST-bus" edges="edge-CN2-CN1 edge-CN1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AW2"/>
+	<vehicle id="CJ1" depart="00" type="bus" color="0,1,0" route="CN-B-A-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="CJ2" depart="300" type="bus" color="0,1,1" route="CN-B-A-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="CJ3" depart="600" type="bus" color="1,1,1" route="CN-B-A-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="CJ4" depart="900" type="bus" color="0,0,1" route="CN-B-A-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+<!--route CN-ST-->
+	<route id="CN-ST-bus" edges="edge-CN2-CN1 edge-CN1-CO0 edge-CO0-CS2"/>
+	<vehicle id="CN1" depart="00" type="bus" color="0,1,0" route="CN-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+	<vehicle id="CN2" depart="300" type="bus" color="0,1,1" route="CN-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+	<vehicle id="CN3" depart="600" type="bus" color="1,1,1" route="CN-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+	<vehicle id="CN4" depart="900" type="bus" color="0,0,1" route="CN-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#24"  duration="20"/>
+    </vehicle>
+<!--route CN-D-E-ST-->	
+	<route id="CN-D-E-ST-bus" edges="edge-CN2-CN1 edge-CN1-CO0 edge-CO0-DW1 edge-DW1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EE2"/>
+	<vehicle id="CQ1" depart="00" type="bus" color="0,1,0" route="CN-D-E-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="CQ2" depart="300" type="bus" color="0,1,1" route="CN-D-E-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="CQ3" depart="600" type="bus" color="1,1,1" route="CN-D-E-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="CQ4" depart="900" type="bus" color="0,0,1" route="CN-D-E-ST-bus">
+		<stop busStop="busStop#20"  duration="20"/>
+		<stop busStop="busStop#5"   duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	
+<!--route DS-C-B-A-ST-->	
+	<route id="DS-C-B-A-ST-bus" edges="edge-DS2-DS1 edge-DS1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AW2"/>
+	<vehicle id="DA1" depart="00" type="bus" color="0,1,0" route="DS-C-B-A-ST-bus">
+		<stop busStop="busStop#17"  duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#11"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="DA4" depart="900" type="bus" color="0,0,1" route="DS-C-B-A-ST-bus">
+		<stop busStop="busStop#17"  duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#11"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+<!--route DS-C-B-A-RI-->
+	<route id="DS-C-B-A-RI-bus" edges="edge-DS2-DS1 edge-DS1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AN2"/>
+	<vehicle id="DB1" depart="00" type="bus" color="0,1,0" route="DS-C-B-A-RI-bus">
+		<stop busStop="busStop#17"  duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#11"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+	<vehicle id="DB4" depart="900" type="bus" color="0,0,1" route="DS-C-B-A-RI-bus">
+		<stop busStop="busStop#17"  duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#11"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+<!--route DS-C-B-LE-->
+	<route id="DS-C-B-LE-bus" edges="edge-DS2-DS1 edge-DS1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-BS2"/>
+	<vehicle id="DC1" depart="00" type="bus" color="0,1,0" route="DS-C-B-LE-bus">
+		<stop busStop="busStop#17"  duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#11"  duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+	<vehicle id="DC4" depart="900" type="bus" color="0,0,1" route="DS-C-B-LE-bus">
+		<stop busStop="busStop#17"  duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#11"  duration="20"/>
+		<stop busStop="busStop#23"  duration="20"/>
+    </vehicle>
+<!--route DS-E-ST-->	
+	<route id="DS-E-ST-bus" edges="edge-DS2-DS1 edge-DS1-DO0 edge-DO0-EW1 edge-EW1-EO0 edge-EO0-EE2"/>
+	<vehicle id="DH1" depart="00" type="bus" color="0,1,0" route="DS-E-ST-bus">
+		<stop busStop="busStop#17"  duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="DH4" depart="900" type="bus" color="0,0,1" route="DS-E-ST-bus">
+		<stop busStop="busStop#17"  duration="20"/>
+		<stop busStop="busStop#6"   duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+
+<!--route EE-D-C-B-A-ST-->	
+	<route id="EE-D-C-B-A-ST-bus" edges="edge-EE2-EE1 edge-EE1-EO0 edge-EO0-DE1 edge-DE1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AW2"/>
+	<vehicle id="EA1" depart="00" type="bus" color="0,1,0" route="EE-D-C-B-A-ST-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#14" duration="20"/>
+    </vehicle>
+	<vehicle id="EA2" depart="300" type="bus" color="0,1,1" route="EE-D-C-B-A-ST-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#14" duration="20"/>
+    </vehicle>
+	<vehicle id="EA3" depart="600" type="bus" color="1,1,1" route="EE-D-C-B-A-ST-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#14" duration="20"/>
+    </vehicle>
+	<vehicle id="EA4" depart="900" type="bus" color="0,0,1" route="EE-D-C-B-A-ST-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#14" duration="20"/>
+    </vehicle>
+<!--route EE-D-C-B-A-RI-->	
+	<route id="EE-D-C-B-A-RI-bus" edges="edge-EE2-EE1 edge-EE1-EO0 edge-EO0-DE1 edge-DE1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AN2"/>
+	<vehicle id="EB1" depart="00" type="bus" color="0,1,0" route="EE-D-C-B-A-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#30" duration="20"/>
+    </vehicle>
+	<vehicle id="EB2" depart="300" type="bus" color="0,1,1" route="EE-D-C-B-A-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#30" duration="20"/>
+    </vehicle>
+	<vehicle id="EB3" depart="600" type="bus" color="1,1,1" route="EE-D-C-B-A-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#30" duration="20"/>
+    </vehicle>
+	<vehicle id="EB4" depart="900" type="bus" color="0,0,1" route="EE-D-C-B-A-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#30" duration="20"/>
+    </vehicle>
+<!--route EE-D-C-B-LE-->	
+	<route id="EE-D-C-B-LE-bus" edges="edge-EE2-EE1 edge-EE1-EO0 edge-EO0-DE1 edge-DE1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-BS2"/>
+	<vehicle id="EC1" depart="00" type="bus" color="0,1,0" route="EE-D-C-B-LE-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#23" duration="20"/>
+    </vehicle>
+	<vehicle id="EC2" depart="300" type="bus" color="0,1,1" route="EE-D-C-B-LE-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#23" duration="20"/>
+    </vehicle>
+	<vehicle id="EC3" depart="600" type="bus" color="1,1,1" route="EE-D-C-B-LE-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#23" duration="20"/>
+    </vehicle>
+	<vehicle id="EC4" depart="900" type="bus" color="0,0,1" route="EE-D-C-B-LE-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#23" duration="20"/>
+    </vehicle>
+<!--route EE-D-C-B-RI-->	
+	<route id="EE-D-C-B-RI-bus" edges="edge-EE2-EE1 edge-EE1-EO0 edge-EO0-DE1 edge-DE1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-BN2"/>
+	<vehicle id="ED1" depart="00" type="bus" color="0,1,0" route="EE-D-C-B-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#29" duration="20"/>
+    </vehicle>
+	<vehicle id="ED2" depart="300" type="bus" color="0,1,1" route="EE-D-C-B-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#29" duration="20"/>
+    </vehicle>
+	<vehicle id="ED3" depart="600" type="bus" color="1,1,1" route="EE-D-C-B-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#29" duration="20"/>
+    </vehicle>
+	<vehicle id="ED4" depart="900" type="bus" color="0,0,1" route="EE-D-C-B-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#11" duration="20"/>
+		<stop busStop="busStop#29" duration="20"/>
+    </vehicle>
+<!--route EE-LE-->	
+	<route id="EE-LE-bus" edges="edge-EE2-EE1 edge-EE1-EO0 edge-EO0-ES2"/>
+	<vehicle id="EH1" depart="00" type="bus" color="0,1,0" route="EE-LE-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#26" duration="20"/>
+    </vehicle>
+	<vehicle id="EH2" depart="300" type="bus" color="0,1,1" route="EE-LE-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#26" duration="20"/>
+    </vehicle>
+	<vehicle id="EH3" depart="600" type="bus" color="1,1,1" route="EE-LE-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#26" duration="20"/>
+    </vehicle>
+	<vehicle id="EH4" depart="900" type="bus" color="0,0,1" route="EE-LE-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#26" duration="20"/>
+    </vehicle>
+<!--route EE-RI-->	
+	<route id="EE-RI-bus" edges="edge-EE2-EE1 edge-EE1-EO0 edge-EO0-EN2"/>
+	<vehicle id="EI1" depart="00" type="bus" color="0,1,0" route="EE-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#27" duration="20"/>
+    </vehicle>
+	<vehicle id="EI2" depart="300" type="bus" color="0,1,1" route="EE-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#27" duration="20"/>
+    </vehicle>
+	<vehicle id="EI3" depart="600" type="bus" color="1,1,1" route="EE-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#27" duration="20"/>
+    </vehicle>
+	<vehicle id="EI4" depart="900" type="bus" color="0,0,1" route="EE-RI-bus">
+		<stop busStop="busStop#8"  duration="20"/>
+		<stop busStop="busStop#27" duration="20"/>
+    </vehicle>	
+	
+<!--route ES-D-C-B-A-ST-->	
+	<route id="ES-D-C-B-A-ST-bus" edges="edge-ES2-ES1 edge-ES1-EO0 edge-EO0-DE1 edge-DE1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AW2"/>
+	<vehicle id="EJ1" depart="00" type="bus" color="0,1,0" route="ES-D-C-B-A-ST-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#12" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="EJ2" depart="300" type="bus" color="0,1,1" route="ES-D-C-B-A-ST-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#12" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="EJ3" depart="600" type="bus" color="1,1,1" route="ES-D-C-B-A-ST-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#12" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="EJ4" depart="900" type="bus" color="0,0,1" route="ES-D-C-B-A-ST-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#12" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+<!--route ES-D-C-B-A-RI-->	
+	<route id="ES-D-C-B-A-RI-bus" edges="edge-ES2-ES1 edge-ES1-EO0 edge-EO0-DE1 edge-DE1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AN2"/>
+	<vehicle id="EK1" depart="00" type="bus" color="0,1,0" route="ES-D-C-B-A-RI-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#12" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#30" duration="20"/>
+    </vehicle>
+	<vehicle id="EK2" depart="300" type="bus" color="0,1,1" route="ES-D-C-B-A-RI-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#12" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#30" duration="20"/>
+    </vehicle>
+	<vehicle id="EK3" depart="600" type="bus" color="1,1,1" route="ES-D-C-B-A-RI-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#12" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#30" duration="20"/>
+    </vehicle>
+	<vehicle id="EK4" depart="900" type="bus" color="0,0,1" route="ES-D-C-B-A-RI-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#9"  duration="20"/>
+		<stop busStop="busStop#10" duration="20"/>
+		<stop busStop="busStop#12" duration="20"/>
+		<stop busStop="busStop#13" duration="20"/>
+		<stop busStop="busStop#30" duration="20"/>
+    </vehicle>
+<!--route ES-ST-->	
+	<route id="ES-ST-bus" edges="edge-ES2-ES1 edge-ES1-EO0 edge-EO0-EN2"/>
+	<vehicle id="EQ1" depart="00" type="bus" color="0,1,0" route="ES-ST-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#27" duration="20"/>
+    </vehicle>
+	<vehicle id="EQ2" depart="300" type="bus" color="0,1,1" route="ES-ST-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#27" duration="20"/>
+    </vehicle>
+	<vehicle id="EQ3" depart="600" type="bus" color="1,1,1" route="ES-ST-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#27" duration="20"/>
+    </vehicle>
+	<vehicle id="EQ4" depart="900" type="bus" color="0,0,1" route="ES-ST-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#27" duration="20"/>
+    </vehicle>
+<!--route ES-RI-->	
+	<route id="ES-RI-bus" edges="edge-ES2-ES1 edge-ES1-EO0 edge-EO0-EE2"/>
+	<vehicle id="ER1" depart="00" type="bus" color="0,1,0" route="ES-RI-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="ER2" depart="300" type="bus" color="0,1,1" route="ES-RI-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="ER3" depart="600" type="bus" color="1,1,1" route="ES-RI-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>
+	<vehicle id="ER4" depart="900" type="bus" color="0,0,1" route="ES-RI-bus">
+		<stop busStop="busStop#18" duration="20"/>
+		<stop busStop="busStop#7"  duration="20"/>
+    </vehicle>	
+	
+<!--route EN-D-C-B-A-ST-->	
+	<route id="EN-D-C-B-A-ST-bus" edges="edge-EN2-EN1 edge-EN1-EO0 edge-EO0-DE1 edge-DE1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AW2"/>
+	<vehicle id="ES1" depart="00" type="bus" color="0,1,0" route="EN-D-C-B-A-ST-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#9"   duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="ES2" depart="300" type="bus" color="0,1,1" route="EN-D-C-B-A-ST-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#9"   duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="ES3" depart="600" type="bus" color="1,1,1" route="EN-D-C-B-A-ST-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#9"   duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+	<vehicle id="ES4" depart="900" type="bus" color="0,0,1" route="EN-D-C-B-A-ST-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#9"   duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#14"  duration="20"/>
+    </vehicle>
+<!--route EN-D-C-B-A-RI-->	
+	<route id="EN-D-C-B-A-RI-bus" edges="edge-EN2-EN1 edge-EN1-EO0 edge-EO0-DE1 edge-DE1-DO0 edge-DO0-CE1 edge-CE1-CO0 edge-CO0-BE1 edge-BE1-BO0 edge-BO0-AE1 edge-AE1-AO0 edge-AO0-AN2"/>
+	<vehicle id="ET1" depart="00" type="bus" color="0,1,0" route="EN-D-C-B-A-RI-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#9"   duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+	<vehicle id="ET2" depart="300" type="bus" color="0,1,1" route="EN-D-C-B-A-RI-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#9"   duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+	<vehicle id="ET3" depart="600" type="bus" color="1,1,1" route="EN-D-C-B-A-RI-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#9"   duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+	<vehicle id="ET4" depart="900" type="bus" color="0,0,1" route="EN-D-C-B-A-RI-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#9"   duration="20"/>
+		<stop busStop="busStop#10"  duration="20"/>
+		<stop busStop="busStop#12"  duration="20"/>
+		<stop busStop="busStop#13"  duration="20"/>
+		<stop busStop="busStop#30"  duration="20"/>
+    </vehicle>
+<!--route EN-LE-->	
+	<route id="EN-LE-bus" edges="edge-EN2-EN1 edge-EN1-EO0 edge-EO0-EE2"/>
+	<vehicle id="EZ1" depart="00" type="bus" color="0,1,0" route="EN-LE-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="EZ2" depart="300" type="bus" color="0,1,1" route="EN-LE-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="EZ3" depart="600" type="bus" color="1,1,1" route="EN-LE-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+	<vehicle id="EZ4" depart="900" type="bus" color="0,0,1" route="EN-LE-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#7"   duration="20"/>
+    </vehicle>
+<!--route EN-ST-->	
+	<route id="EN-ST-bus" edges="edge-EN2-EN1 edge-EN1-EO0 edge-EO0-ES2"/>
+	<vehicle id="EZZ1" depart="00" type="bus" color="0,1,0" route="EN-ST-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="EZZ2" depart="300" type="bus" color="0,1,1" route="EN-ST-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="EZZ3" depart="600" type="bus" color="1,1,1" route="EN-ST-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+	<vehicle id="EZZ4" depart="900" type="bus" color="0,0,1" route="EN-ST-bus">
+		<stop busStop="busStop#19"  duration="20"/>
+		<stop busStop="busStop#26"  duration="20"/>
+    </vehicle>
+</routes>

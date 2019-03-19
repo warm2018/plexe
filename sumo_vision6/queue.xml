@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/19/19 20:23:02 by Eclipse SUMO GUI Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="b.net.xml"/>
+        <route-files value="b.rou.xml"/>
+        <additional-files value="b.det.xml,vtypes.add.xml,bus_stops.add.xml,busses.rou.xml,tls.add.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="fcd.xml"/>
+        <fcd-output.signals value="true"/>
+        <queue-output value="queue.xml"/>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="5400"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="20"/>
+        <collision.action value="remove"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <log value="sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="62305"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<queue-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/queue_file.xsd">
+    <data timestep="0.00">
+        <lanes/>
+    </data>
+    <data timestep="1.00">
+        <lanes/>
+    </data>
+    <data timestep="2.00">
+        <lanes/>
+    </data>
+    <data timestep="3.00">
+        <lanes/>
+    </data>
+    <data timestep="4.00">
+        <lanes/>
+    </data>
+    <data timestep="5.00">
+        <lanes/>
+    </data>
+    <data timestep="6.00">
+        <lanes/>
+    </data>
+    <data timestep="7.00">
+        <lanes/>
+    </data>
+    <data timestep="8.00">
+        <lanes/>
+    </data>
+    <data timestep="9.00">
+        <lanes/>
+    </data>
+    <data timestep="10.00">
+        <lanes/>
+    </data>
+    <data timestep="11.00">
+        <lanes/>
+    </data>
+    <data timestep="12.00">
+        <lanes>
+            <lane id="edge-EN2-EN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="208.24"/>
+        </lanes>
+    </data>
+    <data timestep="13.00">
+        <lanes>
+            <lane id="edge-CN2-CN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="188.01"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="208.03"/>
+        </lanes>
+    </data>
+    <data timestep="14.00">
+        <lanes>
+            <lane id="edge-CN2-CN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="188.01"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="189.64"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="208.01"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="188.07"/>
+        </lanes>
+    </data>
+    <data timestep="15.00">
+        <lanes>
+            <lane id="edge-CN2-CN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="188.01"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="189.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="1.00" queueing_length="295.90" queueing_length_experimental="223.21"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="188.01"/>
+        </lanes>
+    </data>
+    <data timestep="16.00">
+        <lanes>
+            <lane id="edge-CN2-CN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="203.18"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="204.55"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="223.08"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="188.01"/>
+        </lanes>
+    </data>
+    <data timestep="17.00">
+        <lanes>
+            <lane id="edge-CN2-CN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="203.04"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="128.08"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="1.00" queueing_length="204.51" queueing_length_experimental="204.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="1.00" queueing_length="223.05" queueing_length_experimental="223.05"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="203.08"/>
+        </lanes>
+    </data>
+    <data timestep="18.00">
+        <lanes>
+            <lane id="edge-CN2-CN1_0" queueing_time="1.00" queueing_length="203.03" queueing_length_experimental="203.03"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="128.01"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="2.00" queueing_length="204.51" queueing_length_experimental="204.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="2.00" queueing_length="223.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="1.00" queueing_length="203.08" queueing_length_experimental="203.08"/>
+        </lanes>
+    </data>
+    <data timestep="19.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="117.28"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="2.00" queueing_length="203.03" queueing_length_experimental="218.16"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="143.35"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="3.00" queueing_length="204.51" queueing_length_experimental="219.88"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="3.00" queueing_length="223.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="2.00" queueing_length="203.07" queueing_length_experimental="218.28"/>
+        </lanes>
+    </data>
+    <data timestep="20.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="117.24"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="230.52"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="3.00" queueing_length="203.03" queueing_length_experimental="218.04"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="143.18"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="4.00" queueing_length="204.51" queueing_length_experimental="219.69"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="4.00" queueing_length="238.04" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="3.00" queueing_length="203.07" queueing_length_experimental="218.17"/>
+        </lanes>
+    </data>
+    <data timestep="21.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="117.24"/>
+            <lane id="edge-BN2-BN1_0" queueing_time="1.00" queueing_length="318.21" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="230.40"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="4.00" queueing_length="218.03" queueing_length_experimental="224.62"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="1.00" queueing_length="143.09" queueing_length_experimental="143.09"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="5.00" queueing_length="204.51" queueing_length_experimental="219.56"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="5.00" queueing_length="253.07" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="4.00" queueing_length="218.11" queueing_length_experimental="218.11"/>
+        </lanes>
+    </data>
+    <data timestep="22.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="132.33"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="1.00" queueing_length="245.46" queueing_length_experimental="245.46"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="5.00" queueing_length="224.55" queueing_length_experimental="224.55"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="2.00" queueing_length="143.09" queueing_length_experimental="158.18"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="6.00" queueing_length="219.53" queueing_length_experimental="235.09"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="6.00" queueing_length="253.04" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="5.00" queueing_length="218.08" queueing_length_experimental="233.17"/>
+        </lanes>
+    </data>
+    <data timestep="23.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="1.00" queueing_length="132.29" queueing_length_experimental="132.29"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="2.00" queueing_length="260.53" queueing_length_experimental="245.41"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="6.00" queueing_length="224.54" queueing_length_experimental="224.54"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="3.00" queueing_length="158.11" queueing_length_experimental="158.11"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="7.00" queueing_length="219.51" queueing_length_experimental="234.57"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="7.00" queueing_length="253.04" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="6.00" queueing_length="233.12" queueing_length_experimental="233.12"/>
+        </lanes>
+    </data>
+    <data timestep="24.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="2.00" queueing_length="132.28" queueing_length_experimental="132.28"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="368.03"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="3.00" queueing_length="245.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="7.00" queueing_length="224.53" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="4.00" queueing_length="158.09" queueing_length_experimental="164.20"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="8.00" queueing_length="234.52" queueing_length_experimental="234.52"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="8.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="7.00" queueing_length="233.09" queueing_length_experimental="233.09"/>
+        </lanes>
+    </data>
+    <data timestep="25.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="3.00" queueing_length="132.28" queueing_length_experimental="147.48"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="4.00" queueing_length="260.41" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="36.31"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="8.00" queueing_length="224.53" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="5.00" queueing_length="164.11" queueing_length_experimental="164.11"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="9.00" queueing_length="234.51" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="9.00" queueing_length="259.54" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="8.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="26.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="4.00" queueing_length="132.28" queueing_length_experimental="147.36"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="5.00" queueing_length="275.43" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="36.31"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="9.00" queueing_length="230.04" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="6.00" queueing_length="164.09" queueing_length_experimental="169.63"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="10.00" queueing_length="240.02" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="10.00" queueing_length="259.53" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="9.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="27.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="5.00" queueing_length="147.31" queueing_length_experimental="147.31"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="1.00" queueing_length="383.08" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="6.00" queueing_length="275.41" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="36.31"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="10.00" queueing_length="230.04" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="7.00" queueing_length="169.60" queueing_length_experimental="169.60"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="11.00" queueing_length="246.58" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="11.00" queueing_length="266.06" queueing_length_experimental="223.03"/>
+            <lane id="edge-EN2-EN1_1" queueing_time="3.00" queueing_length="259.53" queueing_length_experimental="0.00"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="10.00" queueing_length="239.63" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="28.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="6.00" queueing_length="147.29" queueing_length_experimental="162.57"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="7.00" queueing_length="290.42" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="51.46"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="11.00" queueing_length="236.55" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="8.00" queueing_length="169.59" queueing_length_experimental="169.59"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="12.00" queueing_length="246.52" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="12.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="11.00" queueing_length="239.58" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="29.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="7.00" queueing_length="147.29" queueing_length_experimental="162.37"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="1.00" queueing_length="398.09" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="8.00" queueing_length="290.41" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="1.00" queueing_length="51.41" queueing_length_experimental="51.41"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="12.00" queueing_length="236.54" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="9.00" queueing_length="169.59" queueing_length_experimental="176.68"/>
+            <lane id="edge-DN1-DO0_0" queueing_time="1.00" queueing_length="376.31" queueing_length_experimental="0.00"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="13.00" queueing_length="246.52" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="13.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="12.00" queueing_length="239.58" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="30.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="8.00" queueing_length="162.29" queueing_length_experimental="162.29"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="2.00" queueing_length="398.08" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="9.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="2.00" queueing_length="51.38" queueing_length_experimental="66.97"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="13.00" queueing_length="243.05" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="10.00" queueing_length="169.59" queueing_length_experimental="176.22"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="14.00" queueing_length="246.51" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="14.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="13.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+            <lane id="edge-ES2-ES1_1" queueing_time="4.00" queueing_length="239.58" queueing_length_experimental="0.00"/>
+        </lanes>
+    </data>
+    <data timestep="31.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="9.00" queueing_length="162.29" queueing_length_experimental="168.51"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="3.00" queueing_length="413.09" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="10.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="3.00" queueing_length="51.37" queueing_length_experimental="66.49"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="14.00" queueing_length="249.56" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="11.00" queueing_length="169.59" queueing_length_experimental="176.10"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="15.00" queueing_length="252.02" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="15.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="14.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="32.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="10.00" queueing_length="162.29" queueing_length_experimental="168.35"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="4.00" queueing_length="413.08" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="11.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="4.00" queueing_length="66.39" queueing_length_experimental="66.39"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="15.00" queueing_length="249.55" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="12.00" queueing_length="176.09" queueing_length_experimental="182.60"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="16.00" queueing_length="252.02" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="16.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-EN2-EN1_1" queueing_time="1.00" queueing_length="259.54" queueing_length_experimental="0.00"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.32"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="15.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="33.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="11.00" queueing_length="168.30" queueing_length_experimental="168.30"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.03"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="5.00" queueing_length="475.86" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_0" queueing_time="1.00" queueing_length="318.21" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="12.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="5.00" queueing_length="66.38" queueing_length_experimental="81.74"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="16.00" queueing_length="255.55" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="13.00" queueing_length="182.59" queueing_length_experimental="182.59"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="17.00" queueing_length="258.53" queueing_length_experimental="234.51"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="17.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.15"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="16.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="34.00">
+        <lanes>
+            <lane id="edge-AN2-AN1_0" queueing_time="12.00" queueing_length="174.81" queueing_length_experimental="174.81"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.11"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="1.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="6.00" queueing_length="428.09" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="13.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="6.00" queueing_length="66.37" queueing_length_experimental="81.38"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="17.00" queueing_length="255.54" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="14.00" queueing_length="182.59" queueing_length_experimental="189.83"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="18.00" queueing_length="258.52" queueing_length_experimental="234.51"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.81"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="18.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="1.00" queueing_length="6.07" queueing_length_experimental="12.79"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="17.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="35.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="1.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="13.00" queueing_length="174.80" queueing_length_experimental="174.80"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="5.65"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="7.00" queueing_length="443.09" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.05"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="14.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="7.00" queueing_length="81.37" queueing_length_experimental="81.37"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="15.00" queueing_length="255.54" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="15.00" queueing_length="182.59" queueing_length_experimental="189.13"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="19.00" queueing_length="258.52" queueing_length_experimental="234.51"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.38"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="19.00" queueing_length="253.03" queueing_length_experimental="223.03"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="12.67"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="18.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="36.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="2.00" queueing_length="6.01" queueing_length_experimental="13.05"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="14.00" queueing_length="174.79" queueing_length_experimental="174.79"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="1.00" queueing_length="5.56" queueing_length_experimental="5.56"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="8.00" queueing_length="443.09" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="1.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="15.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="8.00" queueing_length="294.16" queueing_length_experimental="96.38"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="15.00" queueing_length="255.54" queueing_length_experimental="224.53"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="16.00" queueing_length="189.10" queueing_length_experimental="196.30"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="20.00" queueing_length="265.02" queueing_length_experimental="234.51"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.18"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="5.55"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="17.00" queueing_length="253.03" queueing_length_experimental="0.00"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="12.52"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="19.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="37.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="12.76"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="15.00" queueing_length="174.79" queueing_length_experimental="174.79"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="2.00" queueing_length="5.51" queueing_length_experimental="5.51"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="9.00" queueing_length="473.18" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="16.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="9.00" queueing_length="96.37" queueing_length_experimental="96.37"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="12.00" queueing_length="261.05" queueing_length_experimental="223.29"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="17.00" queueing_length="189.09" queueing_length_experimental="195.90"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="21.00" queueing_length="265.02" queueing_length_experimental="234.51"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.03"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="1.00" queueing_length="5.52" queueing_length_experimental="5.52"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="17.00" queueing_length="253.03" queueing_length_experimental="0.00"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="4.00" queueing_length="12.51" queueing_length_experimental="12.51"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="17.00" queueing_length="233.08" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="38.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="16.00" queueing_length="174.79" queueing_length_experimental="174.79"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="3.00" queueing_length="5.50" queueing_length_experimental="12.19"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="10.00" queueing_length="473.11" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="17.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="10.00" queueing_length="96.37" queueing_length_experimental="96.37"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="11.00" queueing_length="261.04" queueing_length_experimental="0.00"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="18.00" queueing_length="189.09" queueing_length_experimental="195.62"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="17.00" queueing_length="271.06" queueing_length_experimental="234.51"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="1.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="2.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="5.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="16.00" queueing_length="238.59" queueing_length_experimental="233.08"/>
+        </lanes>
+    </data>
+    <data timestep="39.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="17.00" queueing_length="174.79" queueing_length_experimental="174.79"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="4.00" queueing_length="5.50" queueing_length_experimental="12.01"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="11.00" queueing_length="473.09" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.17"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="18.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="1.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="11.00" queueing_length="96.37" queueing_length_experimental="102.93"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="10.00" queueing_length="261.04" queueing_length_experimental="188.03"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="19.00" queueing_length="195.60" queueing_length_experimental="202.23"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="16.00" queueing_length="271.02" queueing_length_experimental="234.51"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.04"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="3.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="1.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="6.00" queueing_length="12.50" queueing_length_experimental="19.07"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="2.00" queueing_length="238.58" queueing_length_experimental="232.60"/>
+        </lanes>
+    </data>
+    <data timestep="40.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.09"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="18.00" queueing_length="174.79" queueing_length_experimental="174.79"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="5.00" queueing_length="12.01" queueing_length_experimental="19.35"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="12.00" queueing_length="473.09" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="1.00" queueing_length="6.08" queueing_length_experimental="6.08"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="19.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="12.00" queueing_length="102.88" queueing_length_experimental="102.88"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="10.00" queueing_length="261.04" queueing_length_experimental="203.21"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="18.00" queueing_length="195.59" queueing_length_experimental="202.12"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="15.00" queueing_length="277.54" queueing_length_experimental="233.84"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="1.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="4.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="208.00"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="7.00" queueing_length="19.01" queueing_length_experimental="19.01"/>
+        </lanes>
+    </data>
+    <data timestep="41.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="1.00" queueing_length="6.03" queueing_length_experimental="6.03"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="19.00" queueing_length="174.79" queueing_length_experimental="174.79"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="6.00" queueing_length="12.00" queueing_length_experimental="18.65"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="13.00" queueing_length="473.08" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="2.00" queueing_length="6.04" queueing_length_experimental="6.04"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="12.80"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="20.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="13.00" queueing_length="102.87" queueing_length_experimental="109.52"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="9.00" queueing_length="267.56" queueing_length_experimental="209.75"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="17.00" queueing_length="202.10" queueing_length_experimental="208.76"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="15.00" queueing_length="277.53" queueing_length_experimental="0.00"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.14"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="5.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="223.15"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="8.00" queueing_length="19.00" queueing_length_experimental="19.00"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="188.45"/>
+        </lanes>
+    </data>
+    <data timestep="42.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="2.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="16.00" queueing_length="174.79" queueing_length_experimental="174.79"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="7.00" queueing_length="12.00" queueing_length_experimental="18.54"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="14.00" queueing_length="473.08" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="3.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="21.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="14.00" queueing_length="102.87" queueing_length_experimental="109.42"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="6.00" queueing_length="267.54" queueing_length_experimental="209.67"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="16.00" queueing_length="202.09" queueing_length_experimental="208.64"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="12.00" queueing_length="283.04" queueing_length_experimental="0.00"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="3.00" queueing_length="12.53" queueing_length_experimental="12.53"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="5.57"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="1.00" queueing_length="6.05" queueing_length_experimental="6.05"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="6.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.72"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="223.04"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="9.00" queueing_length="19.00" queueing_length_experimental="19.00"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="188.09"/>
+        </lanes>
+    </data>
+    <data timestep="43.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="14.00" queueing_length="174.79" queueing_length_experimental="174.79"/>
+            <lane id="edge-AN2-AN1_1" queueing_time="11.00" queueing_length="168.29" queueing_length_experimental="181.37"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="8.00" queueing_length="18.52" queueing_length_experimental="18.52"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="15.00" queueing_length="473.08" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="22.00" queueing_length="290.40" queueing_length_experimental="245.40"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="15.00" queueing_length="109.37" queueing_length_experimental="115.53"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="3.00" queueing_length="267.54" queueing_length_experimental="215.30"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="12.00" queueing_length="208.62" queueing_length_experimental="208.62"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="11.00" queueing_length="283.02" queueing_length_experimental="189.66"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="4.00" queueing_length="12.51" queueing_length_experimental="12.51"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="1.00" queueing_length="5.51" queueing_length_experimental="5.51"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="2.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="7.00" queueing_length="5.50" queueing_length_experimental="12.08"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.04"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="1.00" queueing_length="223.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="10.00" queueing_length="19.00" queueing_length_experimental="25.52"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="203.32"/>
+        </lanes>
+    </data>
+    <data timestep="44.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="161.18"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="9.00" queueing_length="18.50" queueing_length_experimental="24.31"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="16.00" queueing_length="473.08" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.03"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="20.00" queueing_length="290.40" queueing_length_experimental="244.39"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="16.00" queueing_length="109.37" queueing_length_experimental="115.40"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="3.00" queueing_length="274.05" queueing_length_experimental="221.93"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="12.00" queueing_length="208.60" queueing_length_experimental="208.60"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="9.00" queueing_length="289.04" queueing_length_experimental="204.82"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="5.00" queueing_length="12.51" queueing_length_experimental="12.51"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="2.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="8.00" queueing_length="12.01" queueing_length_experimental="12.01"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="1.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="2.00" queueing_length="223.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="11.00" queueing_length="25.51" queueing_length_experimental="32.17"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="218.39"/>
+        </lanes>
+    </data>
+    <data timestep="45.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="10.00" queueing_length="18.50" queueing_length_experimental="24.07"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="17.00" queueing_length="473.08" queueing_length_experimental="368.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="1.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="20.00" queueing_length="290.40" queueing_length_experimental="0.00"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="17.00" queueing_length="115.38" queueing_length_experimental="115.38"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="4.00" queueing_length="273.96" queueing_length_experimental="221.79"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="10.00" queueing_length="208.60" queueing_length_experimental="208.60"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="8.00" queueing_length="295.58" queueing_length_experimental="220.25"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="6.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="3.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="158.18"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="9.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="3.00" queueing_length="238.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="12.00" queueing_length="25.50" queueing_length_experimental="32.04"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="1.00" queueing_length="203.09" queueing_length_experimental="224.24"/>
+        </lanes>
+    </data>
+    <data timestep="46.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="117.60"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="11.00" queueing_length="24.01" queueing_length_experimental="24.01"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="18.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="19.00" queueing_length="290.40" queueing_length_experimental="0.00"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="18.00" queueing_length="115.37" queueing_length_experimental="122.02"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="5.00" queueing_length="215.08" queueing_length_experimental="221.69"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="8.00" queueing_length="215.10" queueing_length_experimental="208.59"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="7.00" queueing_length="295.54" queueing_length_experimental="226.20"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="7.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="12.24"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="4.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="158.08"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="10.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="4.00" queueing_length="238.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="13.00" queueing_length="32.02" queueing_length_experimental="32.02"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="2.00" queueing_length="203.09" queueing_length_experimental="223.78"/>
+        </lanes>
+    </data>
+    <data timestep="47.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="132.87"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="12.00" queueing_length="24.01" queueing_length_experimental="24.01"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="14.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="19.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="12.54"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="16.00" queueing_length="115.37" queueing_length_experimental="128.82"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="6.00" queueing_length="215.07" queueing_length_experimental="221.58"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="7.00" queueing_length="215.10" queueing_length_experimental="208.59"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="6.00" queueing_length="295.53" queueing_length_experimental="225.67"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="8.00" queueing_length="12.50" queueing_length_experimental="18.17"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="12.11"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="5.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="173.48"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="11.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="5.00" queueing_length="244.54" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="14.00" queueing_length="32.01" queueing_length_experimental="32.01"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="3.00" queueing_length="218.10" queueing_length_experimental="218.10"/>
+            <lane id="edge-ES2-ES1_1" queueing_time="1.00" queueing_length="223.70" queueing_length_experimental="223.70"/>
+        </lanes>
+    </data>
+    <data timestep="48.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="14.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="148.21"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="13.00" queueing_length="24.00" queueing_length_experimental="29.66"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="15.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="20.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="9.00" queueing_length="12.51" queueing_length_experimental="12.51"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="4.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="230.72"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="14.00" queueing_length="121.88" queueing_length_experimental="128.13"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="7.00" queueing_length="221.57" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="6.00" queueing_length="221.60" queueing_length_experimental="208.59"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="7.00" queueing_length="295.52" queueing_length_experimental="225.16"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="9.00" queueing_length="12.50" queueing_length_experimental="18.07"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="12.01"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="6.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="173.15"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="12.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="6.00" queueing_length="244.52" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="15.00" queueing_length="32.01" queueing_length_experimental="32.01"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="4.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+    <data timestep="49.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="15.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="1.00" queueing_length="132.33" queueing_length_experimental="155.05"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="14.00" queueing_length="29.56" queueing_length_experimental="35.22"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="16.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="21.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="14.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="10.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="5.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="230.49"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="13.00" queueing_length="121.87" queueing_length_experimental="127.94"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="8.00" queueing_length="234.76" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="4.00" queueing_length="221.60" queueing_length_experimental="208.49"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="6.00" queueing_length="295.52" queueing_length_experimental="225.10"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="10.00" queueing_length="18.04" queueing_length_experimental="18.04"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="18.31"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="7.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="1.00" queueing_length="173.09" queueing_length_experimental="173.09"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="13.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="7.00" queueing_length="244.51" queueing_length_experimental="223.01"/>
+            <lane id="edge-EN2-EN1_1" queueing_time="1.00" queueing_length="250.06" queueing_length_experimental="0.00"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="16.00" queueing_length="32.01" queueing_length_experimental="32.01"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="5.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+    <data timestep="50.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="16.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="2.00" queueing_length="132.31" queueing_length_experimental="154.15"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="15.00" queueing_length="35.14" queueing_length_experimental="41.87"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="17.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="20.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="15.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="11.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="1.00" queueing_length="230.42" queueing_length_experimental="245.77"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="11.00" queueing_length="127.88" queueing_length_experimental="127.88"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="9.00" queueing_length="228.07" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="5.00" queueing_length="221.60" queueing_length_experimental="207.92"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="6.00" queueing_length="295.48" queueing_length_experimental="225.02"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="11.00" queueing_length="18.01" queueing_length_experimental="18.01"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="8.00" queueing_length="5.50" queueing_length_experimental="11.69"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="2.00" queueing_length="173.08" queueing_length_experimental="188.11"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="14.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="8.00" queueing_length="244.51" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="17.00" queueing_length="32.01" queueing_length_experimental="32.01"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="6.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+    <data timestep="51.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="17.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="3.00" queueing_length="147.33" queueing_length_experimental="154.02"/>
+            <lane id="edge-AN2-AN1_1" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="160.87"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="16.00" queueing_length="35.06" queueing_length_experimental="41.15"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="18.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="19.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="16.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="12.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="7.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="245.43"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="9.00" queueing_length="127.87" queueing_length_experimental="134.02"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="10.00" queueing_length="234.58" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="4.00" queueing_length="228.17" queueing_length_experimental="206.90"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="6.00" queueing_length="231.55" queueing_length_experimental="225.02"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="12.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="14.00" queueing_length="18.00" queueing_length_experimental="18.00"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="9.00" queueing_length="5.50" queueing_length_experimental="11.53"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="3.00" queueing_length="188.09" queueing_length_experimental="188.09"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="15.00" queueing_length="12.00" queueing_length_experimental="18.56"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="9.00" queueing_length="244.51" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="18.00" queueing_length="32.01" queueing_length_experimental="32.01"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="7.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+    <data timestep="52.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="18.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="4.00" queueing_length="147.31" queueing_length_experimental="153.84"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="17.00" queueing_length="41.08" queueing_length_experimental="41.08"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="19.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="18.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_1" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.19"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="17.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="13.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="8.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="1.00" queueing_length="245.42" queueing_length_experimental="245.42"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="14.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="8.00" queueing_length="133.93" queueing_length_experimental="133.93"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="11.00" queueing_length="240.62" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="5.00" queueing_length="228.11" queueing_length_experimental="175.19"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="7.00" queueing_length="231.52" queueing_length_experimental="225.01"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="13.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="15.00" queueing_length="6.00" queueing_length_experimental="17.70"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="10.00" queueing_length="11.50" queueing_length_experimental="11.50"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="4.00" queueing_length="203.12" queueing_length_experimental="203.12"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="16.00" queueing_length="18.52" queueing_length_experimental="18.52"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="14.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="10.00" queueing_length="238.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-EN2-EN1_1" queueing_time="6.00" queueing_length="244.51" queueing_length_experimental="0.00"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="19.00" queueing_length="32.01" queueing_length_experimental="32.01"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="8.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+    <data timestep="53.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="19.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="5.00" queueing_length="153.82" queueing_length_experimental="153.82"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="18.00" queueing_length="41.05" queueing_length_experimental="47.65"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="20.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="17.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_1" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.08"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="18.00" queueing_length="6.00" queueing_length_experimental="12.51"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="14.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="9.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="2.00" queueing_length="245.42" queueing_length_experimental="245.42"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="15.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="6.00" queueing_length="133.90" queueing_length_experimental="139.57"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="12.00" queueing_length="240.58" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="6.00" queueing_length="154.56" queueing_length_experimental="182.08"/>
+            <lane id="edge-DN1-DO0_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.22"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="8.00" queueing_length="237.04" queueing_length_experimental="225.01"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="14.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="16.00" queueing_length="12.01" queueing_length_experimental="17.55"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="11.00" queueing_length="11.50" queueing_length_experimental="11.50"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="5.00" queueing_length="203.10" queueing_length_experimental="218.65"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="17.00" queueing_length="18.50" queueing_length_experimental="18.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="15.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="11.00" queueing_length="238.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="20.00" queueing_length="32.01" queueing_length_experimental="32.01"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="9.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+    <data timestep="54.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="20.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="14.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="6.00" queueing_length="153.81" queueing_length_experimental="153.81"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="19.00" queueing_length="47.59" queueing_length_experimental="47.59"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="21.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AW2-AW1_0" queueing_time="18.00" queueing_length="473.08" queueing_length_experimental="0.00"/>
+            <lane id="edge-BN1-BO0_1" queueing_time="1.00" queueing_length="6.02" queueing_length_experimental="6.02"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="19.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="15.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="10.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="3.00" queueing_length="245.42" queueing_length_experimental="245.42"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="16.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="5.00" queueing_length="133.88" queueing_length_experimental="139.41"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="13.00" queueing_length="246.10" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="7.00" queueing_length="161.08" queueing_length_experimental="188.95"/>
+            <lane id="edge-DN1-DO0_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="6.01"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="9.00" queueing_length="243.54" queueing_length_experimental="225.01"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="15.00" queueing_length="12.50" queueing_length_experimental="18.34"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="17.00" queueing_length="17.51" queueing_length_experimental="17.51"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="12.00" queueing_length="11.50" queueing_length_experimental="11.50"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_6" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="5.52"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="6.00" queueing_length="203.08" queueing_length_experimental="218.10"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="18.00" queueing_length="18.50" queueing_length_experimental="18.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="16.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="12.00" queueing_length="238.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="21.00" queueing_length="32.01" queueing_length_experimental="37.83"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="10.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+    <data timestep="55.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="21.00" queueing_length="6.00" queueing_length_experimental="12.11"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="15.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="7.00" queueing_length="147.29" queueing_length_experimental="160.48"/>
+            <lane id="edge-AN2-AN1_1" queueing_time="3.00" queueing_length="153.80" queueing_length_experimental="153.80"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="20.00" queueing_length="47.53" queueing_length_experimental="54.65"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="22.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_1" queueing_time="2.00" queueing_length="6.01" queueing_length_experimental="6.01"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="20.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="16.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="11.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="4.00" queueing_length="260.43" queueing_length_experimental="245.42"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="17.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="4.00" queueing_length="139.39" queueing_length_experimental="139.39"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="14.00" queueing_length="252.62" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="8.00" queueing_length="167.58" queueing_length_experimental="188.13"/>
+            <lane id="edge-DN1-DO0_0" queueing_time="1.00" queueing_length="6.00" queueing_length_experimental="12.77"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="10.00" queueing_length="243.53" queueing_length_experimental="225.01"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="16.00" queueing_length="12.50" queueing_length_experimental="18.02"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="18.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="13.00" queueing_length="17.51" queueing_length_experimental="17.51"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="14.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_6" queueing_time="1.00" queueing_length="5.51" queueing_length_experimental="5.51"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="7.00" queueing_length="218.09" queueing_length_experimental="233.20"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="19.00" queueing_length="18.50" queueing_length_experimental="18.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="17.00" queueing_length="6.00" queueing_length_experimental="12.43"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="13.00" queueing_length="238.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="22.00" queueing_length="32.01" queueing_length_experimental="45.59"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="11.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+    <data timestep="56.00">
+        <lanes>
+            <lane id="edge-AN1-AO0_1" queueing_time="22.00" queueing_length="12.01" queueing_length_experimental="12.01"/>
+            <lane id="edge-AN1-AO0_2" queueing_time="16.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-AN2-AN1_0" queueing_time="8.00" queueing_length="147.29" queueing_length_experimental="147.29"/>
+            <lane id="edge-AN2-AN1_1" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="152.63"/>
+            <lane id="edge-AS1-AO0_0" queueing_time="21.00" queueing_length="47.52" queueing_length_experimental="54.33"/>
+            <lane id="edge-AS1-AO0_1" queueing_time="23.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_1" queueing_time="3.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN1-BO0_2" queueing_time="21.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_3" queueing_time="17.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
+            <lane id="edge-BN1-BO0_4" queueing_time="12.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BN2-BN1_3" queueing_time="5.00" queueing_length="260.42" queueing_length_experimental="245.42"/>
+            <lane id="edge-BS1-BO0_2" queueing_time="18.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-BS2-BS1_0" queueing_time="5.00" queueing_length="139.38" queueing_length_experimental="139.38"/>
+            <lane id="edge-CN2-CN1_0" queueing_time="15.00" queueing_length="259.12" queueing_length_experimental="221.57"/>
+            <lane id="edge-CS2-CS1_0" queueing_time="9.00" queueing_length="167.56" queueing_length_experimental="202.89"/>
+            <lane id="edge-DN1-DO0_0" queueing_time="2.00" queueing_length="6.00" queueing_length_experimental="12.62"/>
+            <lane id="edge-DS2-DS1_0" queueing_time="11.00" queueing_length="250.06" queueing_length_experimental="225.01"/>
+            <lane id="edge-EE1-EO0_2" queueing_time="17.00" queueing_length="18.01" queueing_length_experimental="24.22"/>
+            <lane id="edge-EE1-EO0_3" queueing_time="19.00" queueing_length="12.00" queueing_length_experimental="12.00"/>
+            <lane id="edge-EE1-EO0_4" queueing_time="14.00" queueing_length="11.50" queueing_length_experimental="17.05"/>
+            <lane id="edge-EE1-EO0_5" queueing_time="15.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EE1-EO0_6" queueing_time="2.00" queueing_length="5.50" queueing_length_experimental="5.50"/>
+            <lane id="edge-EE2-EE1_0" queueing_time="8.00" queueing_length="233.10" queueing_length_experimental="233.10"/>
+            <lane id="edge-EN1-EO0_1" queueing_time="20.00" queueing_length="18.50" queueing_length_experimental="18.50"/>
+            <lane id="edge-EN1-EO0_2" queueing_time="18.00" queueing_length="6.00" queueing_length_experimental="12.18"/>
+            <lane id="edge-EN1-EO0_3" queueing_time="13.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="edge-EN2-EN1_0" queueing_time="14.00" queueing_length="238.01" queueing_length_experimental="223.01"/>
+            <lane id="edge-ES1-EO0_2" queueing_time="23.00" queueing_length="37.51" queueing_length_experimental="44.33"/>
+            <lane id="edge-ES2-ES1_0" queueing_time="12.00" queueing_length="218.09" queueing_length_experimental="218.09"/>
+        </lanes>
+    </data>
+</queue-export>

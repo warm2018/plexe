@@ -1,0 +1,280 @@
+<connections> 
+<!--intersection A 千佛山路-->
+    <connection from="edge-AW2-AW1" to="edge-AW1-AO0" fromLane="0" toLane="1"/>
+    <connection from="edge-AW2-AW1" to="edge-AW1-AO0" fromLane="0" toLane="5"/>
+	<connection from="edge-AW2-AW1" to="edge-AW1-AO0" fromLane="1" toLane="0"/>
+	<connection from="edge-AW2-AW1" to="edge-AW1-AO0" fromLane="1" toLane="2"/>
+	<connection from="edge-AW2-AW1" to="edge-AW1-AO0" fromLane="1" toLane="3"/>
+	<connection from="edge-AW2-AW1" to="edge-AW1-AO0" fromLane="2" toLane="4"/>
+	<connection from="edge-AW2-AW1" to="edge-AW1-AO0" fromLane="3" toLane="5"/>
+    <connection from="edge-AW1-AO0" to="edge-AO0-AS2" fromLane="0" toLane="0"/>
+    <connection from="edge-AW1-AO0" to="edge-AO0-BW1" fromLane="1" toLane="0"/>
+    <connection from="edge-AW1-AO0" to="edge-AO0-BW1" fromLane="2" toLane="1"/>
+    <connection from="edge-AW1-AO0" to="edge-AO0-BW1" fromLane="3" toLane="2"/>
+    <connection from="edge-AW1-AO0" to="edge-AO0-BW1" fromLane="4" toLane="3"/>
+	<connection from="edge-AW1-AO0" to="edge-AO0-AN2" fromLane="5" toLane="1"/>
+	
+    <connection from="edge-BO0-AE1" to="edge-AE1-AO0" fromLane="0" toLane="0"/>
+	<connection from="edge-BO0-AE1" to="edge-AE1-AO0" fromLane="0" toLane="1"/>
+    <connection from="edge-BO0-AE1" to="edge-AE1-AO0" fromLane="1" toLane="0"/>
+    <connection from="edge-BO0-AE1" to="edge-AE1-AO0" fromLane="1" toLane="2"/>
+	<connection from="edge-BO0-AE1" to="edge-AE1-AO0" fromLane="2" toLane="3"/>
+	<connection from="edge-BO0-AE1" to="edge-AE1-AO0" fromLane="3" toLane="4"/>
+	<connection from="edge-BO0-AE1" to="edge-AE1-AO0" fromLane="4" toLane="5"/>
+    <connection from="edge-AE1-AO0" to="edge-AO0-AN2" fromLane="0" toLane="0"/>
+    <connection from="edge-AE1-AO0" to="edge-AO0-AW2" fromLane="1" toLane="0"/>
+    <connection from="edge-AE1-AO0" to="edge-AO0-AW2" fromLane="2" toLane="1"/>
+    <connection from="edge-AE1-AO0" to="edge-AO0-AW2" fromLane="3" toLane="2"/>
+    <connection from="edge-AE1-AO0" to="edge-AO0-AW2" fromLane="4" toLane="3"/>
+	<connection from="edge-AE1-AO0" to="edge-AO0-AS2" fromLane="5" toLane="0"/>
+
+    <connection from="edge-AS2-AS1" to="edge-AS1-AO0" fromLane="0" toLane="0"/>
+    <connection from="edge-AS2-AS1" to="edge-AS1-AO0" fromLane="0" toLane="1"/>
+    <connection from="edge-AS1-AO0" to="edge-AO0-BW1" fromLane="0" toLane="1"/>
+    <connection from="edge-AS1-AO0" to="edge-AO0-AN2" fromLane="0" toLane="0"/>
+    <connection from="edge-AS1-AO0" to="edge-AO0-AN2" fromLane="1" toLane="1"/>
+	<connection from="edge-AS1-AO0" to="edge-AO0-AW2" fromLane="1" toLane="3"/>
+	
+    <connection from="edge-AN2-AN1" to="edge-AN1-AO0" fromLane="0" toLane="0"/>
+    <connection from="edge-AN2-AN1" to="edge-AN1-AO0" fromLane="0" toLane="1"/>
+	<connection from="edge-AN2-AN1" to="edge-AN1-AO0" fromLane="1" toLane="2"/>
+	<connection from="edge-AN1-AO0" to="edge-AO0-AW2" fromLane="0" toLane="0"/>
+	<connection from="edge-AN1-AO0" to="edge-AO0-AW2" fromLane="0" toLane="1"/>
+	<connection from="edge-AN1-AO0" to="edge-AO0-AS2" fromLane="0" toLane="0"/>
+	<connection from="edge-AN1-AO0" to="edge-AO0-AS2" fromLane="1" toLane="0"/>
+  	<connection from="edge-AN1-AO0" to="edge-AO0-BW1" fromLane="1" toLane="0"/>
+  	<connection from="edge-AN1-AO0" to="edge-AO0-BW1" fromLane="1" toLane="3"/>
+  	<connection from="edge-AN1-AO0" to="edge-AO0-BW1" fromLane="2" toLane="4"/>
+<!--intersection B 历山路-->
+    <connection from="edge-AO0-BW1" to="edge-BW1-BO0" fromLane="0" toLane="0"/>
+    <connection from="edge-AO0-BW1" to="edge-BW1-BO0" fromLane="0" toLane="1"/>
+    <connection from="edge-AO0-BW1" to="edge-BW1-BO0" fromLane="0" toLane="5"/>
+	<connection from="edge-AO0-BW1" to="edge-BW1-BO0" fromLane="1" toLane="0"/>
+	<connection from="edge-AO0-BW1" to="edge-BW1-BO0" fromLane="2" toLane="2"/>
+	<connection from="edge-AO0-BW1" to="edge-BW1-BO0" fromLane="2" toLane="3"/>
+	<connection from="edge-AO0-BW1" to="edge-BW1-BO0" fromLane="3" toLane="4"/>
+	<connection from="edge-AO0-BW1" to="edge-BW1-BO0" fromLane="4" toLane="5"/>
+    <connection from="edge-BW1-BO0" to="edge-BO0-BS2" fromLane="0" toLane="0"/>
+    <connection from="edge-BW1-BO0" to="edge-BO0-CW1" fromLane="1" toLane="0"/>
+    <connection from="edge-BW1-BO0" to="edge-BO0-CW1" fromLane="2" toLane="1"/>
+    <connection from="edge-BW1-BO0" to="edge-BO0-CW1" fromLane="3" toLane="2"/>
+    <connection from="edge-BW1-BO0" to="edge-BO0-CW1" fromLane="4" toLane="3"/>
+	<connection from="edge-BW1-BO0" to="edge-BO0-BN2" fromLane="5" toLane="2"/>
+	<connection from="edge-BW1-BO0" to="edge-BO0-BN2" fromLane="5" toLane="3"/>
+	
+    <connection from="edge-CO0-BE1" to="edge-BE1-BO0" fromLane="0" toLane="0"/>
+    <connection from="edge-CO0-BE1" to="edge-BE1-BO0" fromLane="0" toLane="1"/>
+    <connection from="edge-CO0-BE1" to="edge-BE1-BO0" fromLane="0" toLane="5"/>
+	<connection from="edge-CO0-BE1" to="edge-BE1-BO0" fromLane="1" toLane="0"/>
+	<connection from="edge-CO0-BE1" to="edge-BE1-BO0" fromLane="1" toLane="2"/>
+	<connection from="edge-CO0-BE1" to="edge-BE1-BO0" fromLane="2" toLane="3"/>
+	<connection from="edge-CO0-BE1" to="edge-BE1-BO0" fromLane="2" toLane="4"/>
+	<connection from="edge-CO0-BE1" to="edge-BE1-BO0" fromLane="3" toLane="5"/>
+    <connection from="edge-BE1-BO0" to="edge-BO0-BN2" fromLane="0" toLane="0"/>
+    <connection from="edge-BE1-BO0" to="edge-BO0-BN2" fromLane="0" toLane="3"/>
+    <connection from="edge-BE1-BO0" to="edge-BO0-AE1" fromLane="1" toLane="0"/>
+    <connection from="edge-BE1-BO0" to="edge-BO0-AE1" fromLane="2" toLane="2"/>
+    <connection from="edge-BE1-BO0" to="edge-BO0-AE1" fromLane="3" toLane="3"/>
+    <connection from="edge-BE1-BO0" to="edge-BO0-AE1" fromLane="4" toLane="4"/>
+	<connection from="edge-BE1-BO0" to="edge-BO0-BS2" fromLane="5" toLane="1"/>
+	
+    <connection from="edge-BS2-BS1" to="edge-BS1-BO0" fromLane="0" toLane="0"/>
+    <connection from="edge-BS2-BS1" to="edge-BS1-BO0" fromLane="0" toLane="1"/>
+    <connection from="edge-BS2-BS1" to="edge-BS1-BO0" fromLane="1" toLane="2"/>
+    <connection from="edge-BS1-BO0" to="edge-BO0-CW1" fromLane="0" toLane="0"/>
+    <connection from="edge-BS1-BO0" to="edge-BO0-CW1" fromLane="0" toLane="1"/>
+    <connection from="edge-BS1-BO0" to="edge-BO0-BN2" fromLane="1" toLane="1"/>
+    <connection from="edge-BS1-BO0" to="edge-BO0-BN2" fromLane="1" toLane="3"/>
+	<connection from="edge-BS1-BO0" to="edge-BO0-AE1" fromLane="2" toLane="0"/>
+	<connection from="edge-BS1-BO0" to="edge-BO0-AE1" fromLane="2" toLane="4"/>
+	
+    <connection from="edge-BN2-BN1" to="edge-BN1-BO0" fromLane="0" toLane="0"/>
+    <connection from="edge-BN2-BN1" to="edge-BN1-BO0" fromLane="0" toLane="1"/>
+	<connection from="edge-BN2-BN1" to="edge-BN1-BO0" fromLane="0" toLane="2"/>
+	<connection from="edge-BN2-BN1" to="edge-BN1-BO0" fromLane="1" toLane="3"/>
+	<connection from="edge-BN2-BN1" to="edge-BN1-BO0" fromLane="2" toLane="4"/>
+	<connection from="edge-BN2-BN1" to="edge-BN1-BO0" fromLane="3" toLane="0"/>
+	<connection from="edge-BN2-BN1" to="edge-BN1-BO0" fromLane="3" toLane="5"/>
+	<connection from="edge-BN1-BO0" to="edge-BO0-AE1" fromLane="0" toLane="0"/>
+	<connection from="edge-BN1-BO0" to="edge-BO0-AE1" fromLane="0" toLane="1"/>
+	<connection from="edge-BN1-BO0" to="edge-BO0-BS2" fromLane="1" toLane="0"/>
+	<connection from="edge-BN1-BO0" to="edge-BO0-BS2" fromLane="2" toLane="1"/>
+  	<connection from="edge-BN1-BO0" to="edge-BO0-CW1" fromLane="2" toLane="1"/>
+  	<connection from="edge-BN1-BO0" to="edge-BO0-CW1" fromLane="3" toLane="2"/>
+  	<connection from="edge-BN1-BO0" to="edge-BO0-CW1" fromLane="4" toLane="3"/>
+  	<connection from="edge-BN1-BO0" to="edge-BO0-CW1" fromLane="5" toLane="0"/>
+<!--intersection C 山师东路-->
+    <connection from="edge-BO0-CW1" to="edge-CW1-CO0" fromLane="0" toLane="0"/>
+    <connection from="edge-BO0-CW1" to="edge-CW1-CO0" fromLane="0" toLane="1"/>
+    <connection from="edge-BO0-CW1" to="edge-CW1-CO0" fromLane="0" toLane="5"/>
+	<connection from="edge-BO0-CW1" to="edge-CW1-CO0" fromLane="1" toLane="0"/>
+	<connection from="edge-BO0-CW1" to="edge-CW1-CO0" fromLane="1" toLane="2"/>
+	<connection from="edge-BO0-CW1" to="edge-CW1-CO0" fromLane="2" toLane="3"/>
+	<connection from="edge-BO0-CW1" to="edge-CW1-CO0" fromLane="2" toLane="4"/>
+	<connection from="edge-BO0-CW1" to="edge-CW1-CO0" fromLane="3" toLane="5"/>
+    <connection from="edge-CW1-CO0" to="edge-CO0-CS2" fromLane="0" toLane="0"/>
+    <connection from="edge-CW1-CO0" to="edge-CO0-DW1" fromLane="1" toLane="0"/>
+    <connection from="edge-CW1-CO0" to="edge-CO0-DW1" fromLane="2" toLane="1"/>
+    <connection from="edge-CW1-CO0" to="edge-CO0-DW1" fromLane="3" toLane="2"/>
+    <connection from="edge-CW1-CO0" to="edge-CO0-DW1" fromLane="4" toLane="3"/>
+	<connection from="edge-CW1-CO0" to="edge-CO0-CN2" fromLane="5" toLane="0"/>
+	
+    <connection from="edge-DO0-CE1" to="edge-CE1-CO0" fromLane="0" toLane="0"/>
+    <connection from="edge-DO0-CE1" to="edge-CE1-CO0" fromLane="0" toLane="1"/>
+    <connection from="edge-DO0-CE1" to="edge-CE1-CO0" fromLane="0" toLane="5"/>
+	<connection from="edge-DO0-CE1" to="edge-CE1-CO0" fromLane="1" toLane="0"/>
+	<connection from="edge-DO0-CE1" to="edge-CE1-CO0" fromLane="1" toLane="2"/>
+	<connection from="edge-DO0-CE1" to="edge-CE1-CO0" fromLane="2" toLane="3"/>
+	<connection from="edge-DO0-CE1" to="edge-CE1-CO0" fromLane="3" toLane="4"/>
+	<connection from="edge-DO0-CE1" to="edge-CE1-CO0" fromLane="4" toLane="5"/>
+    <connection from="edge-CE1-CO0" to="edge-CO0-CN2" fromLane="0" toLane="0"/>
+    <connection from="edge-CE1-CO0" to="edge-CO0-BE1" fromLane="1" toLane="0"/>
+    <connection from="edge-CE1-CO0" to="edge-CO0-BE1" fromLane="2" toLane="1"/>
+    <connection from="edge-CE1-CO0" to="edge-CO0-BE1" fromLane="3" toLane="2"/>
+    <connection from="edge-CE1-CO0" to="edge-CO0-BE1" fromLane="4" toLane="3"/>
+	<connection from="edge-CE1-CO0" to="edge-CO0-CS2" fromLane="5" toLane="0"/>
+	
+    <connection from="edge-CS2-CS1" to="edge-CS1-CO0" fromLane="0" toLane="0"/>
+    <connection from="edge-CS2-CS1" to="edge-CS1-CO0" fromLane="0" toLane="1"/>
+    <connection from="edge-CS2-CS1" to="edge-CS1-CO0" fromLane="0" toLane="2"/>
+    <connection from="edge-CS1-CO0" to="edge-CO0-DW1" fromLane="0" toLane="0"/>
+    <connection from="edge-CS1-CO0" to="edge-CO0-DW1" fromLane="0" toLane="1"/>
+    <connection from="edge-CS1-CO0" to="edge-CO0-CN2" fromLane="1" toLane="0"/>
+	<connection from="edge-CS1-CO0" to="edge-CO0-BE1" fromLane="2" toLane="0"/>
+	<connection from="edge-CS1-CO0" to="edge-CO0-BE1" fromLane="2" toLane="3"/>
+	
+    <connection from="edge-CN2-CN1" to="edge-CN1-CO0" fromLane="0" toLane="0"/>
+    <connection from="edge-CN2-CN1" to="edge-CN1-CO0" fromLane="0" toLane="1"/>
+	<connection from="edge-CN2-CN1" to="edge-CN1-CO0" fromLane="0" toLane="2"/>
+	<connection from="edge-CN1-CO0" to="edge-CO0-BE1" fromLane="0" toLane="0"/>
+	<connection from="edge-CN1-CO0" to="edge-CO0-BE1" fromLane="0" toLane="1"/>
+	<connection from="edge-CN1-CO0" to="edge-CO0-CS2" fromLane="1" toLane="0"/>
+	<connection from="edge-CN1-CO0" to="edge-CO0-CS2" fromLane="2" toLane="0"/>
+  	<connection from="edge-CN1-CO0" to="edge-CO0-DW1" fromLane="2" toLane="0"/>
+  	<connection from="edge-CN1-CO0" to="edge-CO0-DW1" fromLane="2" toLane="3"/>
+<!--intersection D 环山路-->
+    <connection from="edge-CO0-DW1" to="edge-DW1-DO0" fromLane="0" toLane="0"/>
+    <connection from="edge-CO0-DW1" to="edge-DW1-DO0" fromLane="0" toLane="1"/>
+	<connection from="edge-CO0-DW1" to="edge-DW1-DO0" fromLane="1" toLane="0"/>
+	<connection from="edge-CO0-DW1" to="edge-DW1-DO0" fromLane="1" toLane="2"/>
+	<connection from="edge-CO0-DW1" to="edge-DW1-DO0" fromLane="2" toLane="3"/>
+	<connection from="edge-CO0-DW1" to="edge-DW1-DO0" fromLane="3" toLane="4"/>
+    <connection from="edge-DW1-DO0" to="edge-DO0-DS2" fromLane="0" toLane="0"/>
+    <connection from="edge-DW1-DO0" to="edge-DO0-EW1" fromLane="1" toLane="0"/>
+    <connection from="edge-DW1-DO0" to="edge-DO0-EW1" fromLane="1" toLane="1"/>
+    <connection from="edge-DW1-DO0" to="edge-DO0-EW1" fromLane="2" toLane="2"/>
+    <connection from="edge-DW1-DO0" to="edge-DO0-EW1" fromLane="3" toLane="3"/>
+    <connection from="edge-DW1-DO0" to="edge-DO0-EW1" fromLane="4" toLane="4"/>
+
+    <connection from="edge-EO0-DE1" to="edge-DE1-DO0" fromLane="0" toLane="0"/>
+    <connection from="edge-EO0-DE1" to="edge-DE1-DO0" fromLane="0" toLane="4"/>
+	<connection from="edge-EO0-DE1" to="edge-DE1-DO0" fromLane="1" toLane="1"/>
+	<connection from="edge-EO0-DE1" to="edge-DE1-DO0" fromLane="1" toLane="2"/>
+	<connection from="edge-EO0-DE1" to="edge-DE1-DO0" fromLane="2" toLane="3"/>
+	<connection from="edge-EO0-DE1" to="edge-DE1-DO0" fromLane="3" toLane="4"/>
+    <connection from="edge-DE1-DO0" to="edge-DO0-CE1" fromLane="0" toLane="0"/>
+    <connection from="edge-DE1-DO0" to="edge-DO0-CE1" fromLane="1" toLane="1"/>
+    <connection from="edge-DE1-DO0" to="edge-DO0-DN1" fromLane="1" toLane="0"/>
+    <connection from="edge-DE1-DO0" to="edge-DO0-CE1" fromLane="2" toLane="2"/>
+    <connection from="edge-DE1-DO0" to="edge-DO0-CE1" fromLane="3" toLane="3"/>
+	<connection from="edge-DE1-DO0" to="edge-DO0-DS2" fromLane="4" toLane="0"/>
+	
+    <connection from="edge-DS2-DS1" to="edge-DS1-DO0" fromLane="0" toLane="0"/>
+    <connection from="edge-DS2-DS1" to="edge-DS1-DO0" fromLane="0" toLane="1"/>
+    <connection from="edge-DS2-DS1" to="edge-DS1-DO0" fromLane="0" toLane="2"/>
+    <connection from="edge-DS1-DO0" to="edge-DO0-EW1" fromLane="0" toLane="0"/>
+    <connection from="edge-DS1-DO0" to="edge-DO0-EW1" fromLane="0" toLane="1"/>
+    <connection from="edge-DS1-DO0" to="edge-DO0-DN1" fromLane="1" toLane="0"/>
+	<connection from="edge-DS1-DO0" to="edge-DO0-CE1" fromLane="2" toLane="0"/>
+	<connection from="edge-DS1-DO0" to="edge-DO0-CE1" fromLane="2" toLane="4"/>
+		
+	<connection from="edge-DN1-DO0" to="edge-DO0-CE1" fromLane="0" toLane="1"/>
+	<connection from="edge-DN1-DO0" to="edge-DO0-DS2" fromLane="0" toLane="0"/>
+	<connection from="edge-DN1-DO0" to="edge-DO0-EW1" fromLane="0" toLane="4"/>
+<!--intersection E 山大路-->
+    <connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="0" toLane="0"/>
+    <connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="0" toLane="1"/>
+    <connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="0" toLane="5"/>
+	<connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="1" toLane="0"/>
+	<connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="1" toLane="2"/>
+	<connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="2" toLane="3"/>
+	<connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="2" toLane="4"/>
+	<connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="3" toLane="5"/>
+	<connection from="edge-DO0-EW1" to="edge-EW1-EO0" fromLane="4" toLane="6"/>
+    <connection from="edge-EW1-EO0" to="edge-EO0-ES2" fromLane="0" toLane="0"/>
+    <connection from="edge-EW1-EO0" to="edge-EO0-EE2" fromLane="1" toLane="0"/>
+    <connection from="edge-EW1-EO0" to="edge-EO0-EE2" fromLane="2" toLane="1"/>
+    <connection from="edge-EW1-EO0" to="edge-EO0-EE2" fromLane="3" toLane="2"/>
+    <connection from="edge-EW1-EO0" to="edge-EO0-EE2" fromLane="4" toLane="3"/>
+	<connection from="edge-EW1-EO0" to="edge-EO0-EN2" fromLane="5" toLane="0"/>
+	<connection from="edge-EW1-EO0" to="edge-EO0-EN2" fromLane="6" toLane="1"/>
+	
+    <connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="0" toLane="0"/>
+    <connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="0" toLane="1"/>
+    <connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="0" toLane="5"/>
+	<connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="1" toLane="0"/>
+	<connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="1" toLane="2"/>
+	<connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="1" toLane="3"/>
+	<connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="2" toLane="4"/>
+	<connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="2" toLane="5"/>
+	<connection from="edge-EE2-EE1" to="edge-EE1-EO0" fromLane="3" toLane="6"/>
+    <connection from="edge-EE1-EO0" to="edge-EO0-EN2" fromLane="0" toLane="0"/>
+    <connection from="edge-EE1-EO0" to="edge-EO0-DE1" fromLane="1" toLane="0"/>
+    <connection from="edge-EE1-EO0" to="edge-EO0-DE1" fromLane="2" toLane="1"/>
+    <connection from="edge-EE1-EO0" to="edge-EO0-DE1" fromLane="3" toLane="2"/>
+    <connection from="edge-EE1-EO0" to="edge-EO0-DE1" fromLane="4" toLane="3"/>
+	<connection from="edge-EE1-EO0" to="edge-EO0-ES2" fromLane="5" toLane="0"/>
+	<connection from="edge-EE1-EO0" to="edge-EO0-ES2" fromLane="6" toLane="1"/>
+	
+    <connection from="edge-ES2-ES1" to="edge-ES1-EO0" fromLane="0" toLane="0"/>
+    <connection from="edge-ES2-ES1" to="edge-ES1-EO0" fromLane="0" toLane="1"/>
+    <connection from="edge-ES2-ES1" to="edge-ES1-EO0" fromLane="1" toLane="2"/>
+    <connection from="edge-ES1-EO0" to="edge-EO0-EE2" fromLane="0" toLane="0"/>
+    <connection from="edge-ES1-EO0" to="edge-EO0-EE2" fromLane="1" toLane="1"/>
+	<connection from="edge-ES1-EO0" to="edge-EO0-EN2" fromLane="1" toLane="0"/>
+    <connection from="edge-ES1-EO0" to="edge-EO0-EN2" fromLane="2" toLane="1"/>
+	<connection from="edge-ES1-EO0" to="edge-EO0-DE1" fromLane="2" toLane="0"/>
+	<connection from="edge-ES1-EO0" to="edge-EO0-DE1" fromLane="2" toLane="2"/>
+	
+    <connection from="edge-EN2-EN1" to="edge-EN1-EO0" fromLane="0" toLane="0"/>
+    <connection from="edge-EN2-EN1" to="edge-EN1-EO0" fromLane="0" toLane="1"/>
+	<connection from="edge-EN2-EN1" to="edge-EN1-EO0" fromLane="1" toLane="2"/>
+	<connection from="edge-EN2-EN1" to="edge-EN1-EO0" fromLane="2" toLane="3"/>
+	<connection from="edge-EN2-EN1" to="edge-EN1-EO0" fromLane="2" toLane="4"/>
+	<connection from="edge-EN1-EO0" to="edge-EO0-DE1" fromLane="0" toLane="0"/>
+	<connection from="edge-EN1-EO0" to="edge-EO0-DE1" fromLane="0" toLane="1"/>
+	<connection from="edge-EN1-EO0" to="edge-EO0-ES2" fromLane="1" toLane="0"/>
+	<connection from="edge-EN1-EO0" to="edge-EO0-ES2" fromLane="2" toLane="1"/>
+  	<connection from="edge-EN1-EO0" to="edge-EO0-EE2" fromLane="2" toLane="0"/>
+  	<connection from="edge-EN1-EO0" to="edge-EO0-EE2" fromLane="2" toLane="1"/>
+  	<connection from="edge-EN1-EO0" to="edge-EO0-EE2" fromLane="3" toLane="2"/>
+  	<connection from="edge-EN1-EO0" to="edge-EO0-EE2" fromLane="4" toLane="3"/>
+
+<!--intersection A 千佛山路冲突-->	
+	<prohibition prohibitor="edge-AW1-AO0->edge-AO0-AN2" prohibited="edge-AE1-AO0->edge-AO0-AN2"/>
+	<prohibition prohibitor="edge-AE1-AO0->edge-AO0-AS2" prohibited="edge-AW1-AO0->edge-AO0-AS2"/>
+	<prohibition prohibitor="edge-AS1-AO0->edge-AO0-AW2" prohibited="edge-AN1-AO0->edge-AO0-AW2"/>
+	<prohibition prohibitor="edge-AN1-AO0->edge-AO0-BW1" prohibited="edge-AS1-AO0->edge-AO0-BW1"/>
+<!--intersection B 历山路冲突-->
+	<prohibition prohibitor="edge-BW1-BO0->edge-BO0-BN2" prohibited="edge-BE1-BO0->edge-BO0-BN2"/>
+	<prohibition prohibitor="edge-BE1-BO0->edge-BO0-BS2" prohibited="edge-BW1-BO0->edge-BO0-BS2"/>
+	<prohibition prohibitor="edge-BS1-BO0->edge-BO0-AE1" prohibited="edge-BN1-BO0->edge-BO0-AE1"/>
+	<prohibition prohibitor="edge-BN1-BO0->edge-BO0-CW1" prohibited="edge-BS1-BO0->edge-BO0-CW1"/>
+<!--intersection C 山师东路冲突-->		
+	<prohibition prohibitor="edge-CW1-CO0->edge-CO0-CN2" prohibited="edge-CE1-CO0->edge-CO0-CN2"/>
+	<prohibition prohibitor="edge-CE1-CO0->edge-CO0-CS2" prohibited="edge-CW1-CO0->edge-CO0-CS2"/>
+	<prohibition prohibitor="edge-CS1-CO0->edge-CO0-BE1" prohibited="edge-CN1-CO0->edge-CO0-BE1"/>
+	<prohibition prohibitor="edge-CN1-CO0->edge-CO0-DW1" prohibited="edge-CS1-CO0->edge-CO0-DW1"/>
+<!--intersection D 环山路冲突-->	
+	<prohibition prohibitor="edge-DW1-DO0->edge-DO0-DN1" prohibited="edge-DE1-DO0->edge-DO0-DN1"/>
+	<prohibition prohibitor="edge-DE1-DO0->edge-DO0-DS2" prohibited="edge-DW1-DO0->edge-DO0-DS2"/>
+	<prohibition prohibitor="edge-DS1-DO0->edge-DO0-CE1" prohibited="edge-DN1-DO0->edge-DO0-CE1"/>
+	<prohibition prohibitor="edge-DS1-DO0->edge-DO0-CE1" prohibited="edge-DW1-DO0->edge-DO0-EW1"/>
+	<prohibition prohibitor="edge-DN1-DO0->edge-DO0-EW1" prohibited="edge-DS1-DO0->edge-DO0-EW1"/>
+	
+<!--intersection E 山大路冲突-->		
+	<prohibition prohibitor="edge-EW1-EO0->edge-EO0-EN2" prohibited="edge-EE1-EO0->edge-EO0-EN2"/>
+	<prohibition prohibitor="edge-EE1-EO0->edge-EO0-ES2" prohibited="edge-EW1-EO0->edge-EO0-ES2"/>
+	<prohibition prohibitor="edge-ES1-EO0->edge-EO0-DE1" prohibited="edge-EN1-EO0->edge-EO0-DE1"/>
+	<prohibition prohibitor="edge-EN1-EO0->edge-EO0-EE2" prohibited="edge-ES1-EO0->edge-EO0-EE2"/>
+</connections> 
